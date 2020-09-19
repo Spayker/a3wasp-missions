@@ -3576,14 +3576,13 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Hamlet"",""+"",10,50,300,[""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Hamlet"",""+"",10,50,300] spawn WFCO_fnc_initTown;}";
 				name="Hamlet";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
 			};
 			id=710;
 			type="Land_BagBunker_Large_F";
-			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3659,7 +3658,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Kamenny"",""+"",30,120,600,[""HugeTown1"",""HugeTown2""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Kamenny"",""+"",30,120,600] spawn WFCO_fnc_initTown;}";
 				name="Kamenny";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
@@ -3741,14 +3740,14 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lighthouse"",""+"",10,50,400,[""MediumTown1"",""MediumTown2""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lighthouse"",""+"",10,50,400] spawn WFCO_fnc_initTown;}";
 				name="Lighthouse";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
 			};
 			id=712;
 			type="Land_BagBunker_Large_F";
-			atlOffset=0.0020027161;
+			atlOffset=0.0020008087;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3824,7 +3823,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Strelka"",""+"",30,120,600,[""HugeTown1"",""HugeTown2""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Strelka"",""+"",30,120,600] spawn WFCO_fnc_initTown;}";
 				name="Strelka";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;

@@ -5191,7 +5191,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Chernogorsk"",""+"",30,120,800,[""HugeTown1"",""HugeTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Chernogorsk"",""+"",30,120,800,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Chernogorsk";
 				disableSimulation=1;
 			};
@@ -5226,21 +5226,20 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11268.777,78.360748,6593.4717};
-				angles[]={6.1703343,6.1086521,0.018667053};
+				position[]={11268.777,78.360413,6593.4722};
+				angles[]={6.1703324,6.1086521,0.018675024};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Dolina"",""+"",10,50,500,[""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Dolina"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
 				name="Dolina";
 				disableSimulation=1;
 			};
 			id=816;
 			type="Land_BagBunker_Large_F";
-			atlOffset=0.00038909912;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5278,7 +5277,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Dubrovka"",""+"",10,40,500,[""MediumTown1"",""MediumTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Dubrovka"",""+"",10,40,500,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Dubrovka";
 				disableSimulation=1;
 			};
@@ -5313,7 +5312,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10279.91,8.3817644,1970.03};
+				position[]={10279.91,8.3827648,1970.03};
 				angles[]={6.244544,2.035403,0.016004669};
 			};
 			side="Empty";
@@ -5321,13 +5320,12 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Elektrozavodsk"",""+"",30,120,800,[""HugeTown1"",""HugeTown2""],[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Elektrozavodsk"",""+"",30,120,800,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Elektrozavodsk";
 				disableSimulation=1;
 			};
 			id=818;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-0.00099992752;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5365,7 +5363,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Gorka"",""+"",20,80,600,[""LargeTown1"",""LargeTown2""],[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Gorka"",""+"",20,80,600,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Gorka";
 				disableSimulation=1;
 			};
@@ -5408,7 +5406,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Grishino"",""+"",20,80,600,[""LargeTown1"",""LargeTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Grishino"",""+"",20,80,600,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Grishino";
 				disableSimulation=1;
 			};
@@ -5451,7 +5449,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Guglovo"",""+"",10,40,500,[""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Guglovo"",""+"",10,40,500] spawn WFCO_fnc_initTown;}";
 				name="Guglovo";
 				disableSimulation=1;
 			};
@@ -5505,20 +5503,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8639.627,186.85881,11946.326};
-				angles[]={0.081154868,0,0.097029202};
+				position[]={8639.627,186.85883,11946.326};
+				angles[]={0.081157811,0,0.097022854};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Gvozdno"",""+"",10,50,500,[""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Gvozdno"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
 				name="Gvozdno";
 				disableSimulation=1;
 			};
 			id=822;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5548,21 +5547,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5423.9639,330.3913,8616.2129};
-				angles[]={0.010669862,0,6.0857902};
+				position[]={5423.9639,330.39066,8616.2129};
+				angles[]={0.010663962,0,6.0857887};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Kabanino"",""+"",10,60,500,[""MediumTown1"",""MediumTown2"",""SmallTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Kabanino"",""+"",10,60,500] spawn WFCO_fnc_initTown;}";
 				name="Kabanino";
 				disableSimulation=1;
 			};
 			id=823;
 			type="Land_BagBunker_Large_F";
-			atlOffset=0.00067138672;
+			atlOffset=3.0517578e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5600,7 +5599,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Kamenka"",""+"",10,50,500,[""SmallTown1"",""MediumTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Kamenka"",""+"",10,50,500,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Kamenka";
 				disableSimulation=1;
 			};
@@ -5643,7 +5642,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Kamyshovo"",""+"",10,60,400,""TinyTown1""] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Kamyshovo"",""+"",10,60,400] spawn WFCO_fnc_initTown;}";
 				name="Kamyshovo";
 				disableSimulation=1;
 			};
@@ -5698,14 +5697,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={12376.249,98.190033,10878.046};
-				angles[]={6.233892,0.43633232,6.2033563};
+				angles[]={6.2338972,0.43633232,6.2033539};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Khelm"",""+"",10,50,600,""MediumTown1""] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Khelm"",""+"",10,50,600] spawn WFCO_fnc_initTown;}";
 				name="Khelm";
 				disableSimulation=1;
 			};
@@ -5740,21 +5739,20 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3512.3984,8.2725353,2484.6675};
-				angles[]={6.223258,5.9341192,0.0053265258};
+				position[]={3512.3979,8.2725048,2484.667};
+				angles[]={6.2232509,5.9341192,0.0053232545};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Komarovo"",""+"",10,65,600,[""MediumTown1"",""MediumTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Komarovo"",""+"",10,65,600] spawn WFCO_fnc_initTown;}";
 				name="Komarovo";
 				disableSimulation=1;
 			};
 			id=827;
 			type="Land_BagBunker_Large_F";
-			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5784,21 +5782,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4458.3809,230.74025,4580.1865};
-				angles[]={0.013332055,5.3232541,6.2299037};
+				position[]={4458.3809,230.74023,4580.187};
+				angles[]={0.013334315,5.3232541,6.2299004};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Kozlovka"",""+"",10,50,500,[""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Kozlovka"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
 				name="Kozlovka";
 				disableSimulation=1;
 			};
 			id=828;
 			type="Land_BagBunker_Large_F";
-			atlOffset=3.0517578e-005;
+			atlOffset=1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5828,20 +5826,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10984.048,225.24301,12372.459};
-				angles[]={6.256525,0,6.2365522};
+				position[]={10984.048,225.24303,12372.46};
+				angles[]={6.2565165,0,6.2365503};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Krasnostav"",""+"",30,120,800,[""HugeTown1"",""HugeTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Krasnostav"",""+"",30,120,800] spawn WFCO_fnc_initTown;}";
 				name="Krasnostav";
 				disableSimulation=1;
 			};
 			id=829;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5879,7 +5878,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lopatino"",""+"",20,80,600,[""LargeTown1"",""LargeTown2""],[],[""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lopatino"",""+"",20,80,600,[],[""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Lopatino";
 				disableSimulation=1;
 			};
@@ -5914,21 +5913,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7477.0117,218.03175,5203.2559};
-				angles[]={6.1914434,0.43633232,6.2352223};
+				position[]={7477.0122,218.03262,5203.2559};
+				angles[]={6.1914506,0.43633232,6.2352238};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Mogilevka"",""+"",20,80,600,[""LargeTown1"",""LargeTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Mogilevka"",""+"",20,80,600] spawn WFCO_fnc_initTown;}";
 				name="Mogilevka";
 				disableSimulation=1;
 			};
 			id=831;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-0.00090026855;
+			atlOffset=-1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5958,20 +5957,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11395.063,255.16705,5510.4722};
-				angles[]={0.014660771,0.2617994,0.014664836};
+				position[]={11395.063,255.16707,5510.4722};
+				angles[]={0.014660765,0.2617994,0.014660765};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Msta"",""+"",10,30,500,""TinyTown1""] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Msta"",""+"",10,30,500] spawn WFCO_fnc_initTown;}";
 				name="Msta";
 				disableSimulation=1;
 			};
 			id=832;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6001,7 +6001,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1915.7811,261.88968,7439.4722};
+				position[]={1915.781,261.88968,7439.4722};
 				angles[]={0,5.6723199,0};
 			};
 			side="Empty";
@@ -6009,7 +6009,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Myshkino"",""+"",10,40,400,[""TinyTown1"",""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Myshkino"",""+"",10,40,400] spawn WFCO_fnc_initTown;}";
 				name="Myshkino";
 				disableSimulation=1;
 			};
@@ -6044,15 +6044,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5924.6938,148.51964,4726.5522};
-				angles[]={0.0053265258,6.0213857,0.16774039};
+				position[]={5924.6938,148.51964,4726.5518};
+				angles[]={0.0053232545,6.0213857,0.16774359};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Nadezhdino"",""+"",10,50,600,[""MediumTown1"",""MediumTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Nadezhdino"",""+"",10,50,600] spawn WFCO_fnc_initTown;}";
 				name="Nadezhdino";
 				disableSimulation=1;
 			};
@@ -6095,7 +6095,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Novy Sobor"",""+"",10,50,355,[""SmallTown1"",""SmallTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Novy Sobor"",""+"",10,50,355,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="NovySobor";
 				disableSimulation=1;
 			};
@@ -6138,7 +6138,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Olsha"",""+"",10,50,500,""SmallTown1""] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Olsha"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
 				name="Olsha";
 				disableSimulation=1;
 			};
@@ -6173,15 +6173,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12236.889,172.634,7223.6484};
-				angles[]={0.047963165,6.1086521,6.1271305};
+				position[]={12236.889,172.63402,7223.6479};
+				angles[]={0.047961645,6.1086521,6.1271353};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Orlovets"",""+"",10,40,400,[""TinyTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Orlovets"",""+"",10,40,400] spawn WFCO_fnc_initTown;}";
 				name="Orlovets";
 				disableSimulation=1;
 			};
@@ -6216,15 +6216,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1754.4755,144.66777,3925.2046};
-				angles[]={6.249866,0.2617994,0.0039967569};
+				position[]={1754.475,144.66777,3925.2051};
+				angles[]={6.249867,0.2617994,0.0039968039};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Pavlovo"",""+"",10,50,500,[""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Pavlovo"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
 				name="Pavlovo";
 				disableSimulation=1;
 			};
@@ -6259,15 +6259,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4839.5547,192.17168,12523.082};
-				angles[]={0.16903779,5.0614548,6.2126365};
+				position[]={4839.5552,192.17165,12523.082};
+				angles[]={0.16903514,5.0614548,6.2126393};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Petrovka"",""+"",10,50,500,[""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Petrovka"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
 				name="Petrovka";
 				disableSimulation=1;
 			};
@@ -6302,21 +6302,20 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10702.236,212.61,7983.438};
-				angles[]={0.025327841,0.52359879,0.082478598};
+				position[]={10702.236,212.61086,7983.438};
+				angles[]={0.025324726,0.52359879,0.08248426};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Polana"",""+"",10,60,500,[""MediumTown1"",""MediumTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Polana"",""+"",10,60,500] spawn WFCO_fnc_initTown;}";
 				name="Polana";
 				disableSimulation=1;
 			};
 			id=841;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-0.00085449219;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6354,7 +6353,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Prigorodki Warehouse"",""+"",10,50,400,""TinyTown1"", [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Prigorodki Warehouse"",""+"",10,50,400, [""warehouse""]] spawn WFCO_fnc_initTown;}";
 				name="Prigorodki_Warehouse";
 				disableSimulation=1;
 			};
@@ -6397,7 +6396,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Pusta"",""+"",10,50,500,[""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Pusta"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
 				name="Pusta";
 				disableSimulation=1;
 			};
@@ -6440,7 +6439,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Pustoshka"",""+"",10,60,500,[""SmallTown1"",""MediumTown1"",""MediumTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Pustoshka"",""+"",10,60,500,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Pustoshka";
 				disableSimulation=1;
 			};
@@ -6475,15 +6474,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9735.3633,207.30316,6516.8867};
-				angles[]={0.13647979,0.2617994,6.1716504};
+				position[]={9735.3633,207.3031,6516.8872};
+				angles[]={0.13648474,0.2617994,6.1716413};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Shakhovka"",""+"",10,45,500,""TinyTown1""] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Shakhovka"",""+"",10,45,500] spawn WFCO_fnc_initTown;}";
 				name="Shakhovka";
 				disableSimulation=1;
 			};
@@ -6526,7 +6525,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Solnichniy"",""+"",20,80,600,[""LargeTown1"",""LargeTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Solnichniy"",""+"",20,80,600,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Solnichniy";
 				disableSimulation=1;
 			};
@@ -6569,7 +6568,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Staroye"",""+"",20,80,600,[""LargeTown1"",""LargeTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Staroye"",""+"",20,80,600,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Staroye";
 				disableSimulation=1;
 			};
@@ -6631,7 +6630,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Stary Sobor"",""+"",30,120,400,[""HugeTown1"",""HugeTown2""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Stary Sobor"",""+"",30,120,400] spawn WFCO_fnc_initTown;}";
 				name="StarySobor";
 				disableSimulation=1;
 			};
@@ -6667,21 +6666,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12784.889,167.81342,4473.2334};
-				angles[]={0.079829417,0.2617994,0.10098967};
+				position[]={12784.889,167.81343,4473.2329};
+				angles[]={0.079831354,0.2617994,0.10098474};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Tulga"",""+"",10,50,500,""SmallTown1""] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Tulga"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
 				name="Tulga";
 				disableSimulation=1;
 			};
 			id=849;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-0.0030059814;
+			atlOffset=-0.0030212402;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6719,7 +6718,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Vybor"",""+"",10,50,500,[""SmallTown1"",""SmallTown2""],[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Vybor"",""+"",10,50,500,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Vybor";
 				disableSimulation=1;
 			};
@@ -6754,15 +6753,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6531.8994,322.86993,6151.3755};
-				angles[]={6.2818484,0,0.0026520467};
+				position[]={6531.8989,322.86993,6151.375};
+				angles[]={6.2818413,0,0.0026529003};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="nullReturn = [this,""Vyshnoye"",""Vyshnoe"",10,50,500,[""SmallTown1"",""SmallTown2""]] spawn WFCO_fnc_initTown;";
+				init="call{nullReturn = [this,""Vyshnoye"",""Vyshnoe"",10,50,500] spawn WFCO_fnc_initTown;}";
 				name="Vyshnoye";
 				disableSimulation=1;
 			};
@@ -6805,7 +6804,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Zelenogorsk"",""+"",30,120,800,[""HugeTown1"",""HugeTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Zelenogorsk"",""+"",30,120,800,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Zelenogorsk";
 				disableSimulation=1;
 			};
@@ -6868,7 +6867,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Berezino"",""+"",30,120,800,[""HugeTown1"",""HugeTown2""],[],[""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Berezino"",""+"",30,120,800,[],[""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Berezino";
 				disableSimulation=1;
 			};
@@ -6912,7 +6911,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Pogorevka"",""+"",10,50,500,[""SmallTown1"",""SmallTown2""],[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Pogorevka"",""+"",10,50,500,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Pogorevka";
 				disableSimulation=1;
 			};
@@ -12981,7 +12980,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Olsha  Radar"",""+"",10,50,500,[""MediumTown1"",""MediumTown2""], [""radar""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Olsha  Radar"",""+"",10,50,500, [""radar""]] spawn WFCO_fnc_initTown;}";
 				name="Olsha_Radar";
 				disableSimulation=1;
 			};
@@ -13056,7 +13055,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Green Mountain  Radar"",""+"",10,50,500,[""MediumTown1"",""MediumTown2""], [""radar""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Green Mountain  Radar"",""+"",10,50,500, [""radar""]] spawn WFCO_fnc_initTown;}";
 				name="Green_Mountain_Radar_1";
 				disableSimulation=1;
 			};
@@ -13142,7 +13141,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Krasnostav Warehouse"",""+"",10,50,400,""TinyTown1"", [""warehouse""],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Krasnostav Warehouse"",""+"",10,50,400, [""warehouse""],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Berezino_Warehouse";
 				disableSimulation=1;
 			};
