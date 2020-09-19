@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1065;
+		nextID=1075;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={9643.4883,452.95261,8711.4951};
-		dir[]={0.014587061,-0.6175521,0.78639984};
-		up[]={0.011453138,0.7865274,0.61744636};
-		aside[]={0.99983037,-6.9576345e-009,-0.018546091};
+		pos[]={12067.179,161.36397,9157.8311};
+		dir[]={-0.018131269,-0.57644546,0.81693685};
+		up[]={-0.012790618,0.8171348,0.57630426};
+		aside[]={0.99975616,7.0294846e-009,0.022188811};
 	};
 };
 binarizationWanted=0;
@@ -247,7 +247,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=374;
+		items=384;
 		class Item0
 		{
 			dataType="Marker";
@@ -357,7 +357,7 @@ class Mission
 				position[]={7184.874,6,2574.854};
 				angles[]={0,0.78539819,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AT']];}";
+			init="call{this setVariable ['wf_defense_kind', ['AT', ""Cherno Port""]];}";
 			id=35;
 			type="Logic";
 		};
@@ -414,13 +414,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={10251.021,12.912004,2215.9451};
-				angles[]={6.0824466,2.9670596,6.2512269};
+				position[]={10038.55,6,1873.0302};
+				angles[]={0,2.9670596,0};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Electro Plant""]];}";
 			id=60;
 			type="Logic";
-			atlOffset=0.0019130707;
 		};
 		class Item15
 		{
@@ -759,7 +758,7 @@ class Mission
 				position[]={1917,0.17702484,54.747002};
 			};
 			name="WF_Logic";
-			init="call{this setVariable [""totalTowns"",45];this enableSimulation false; nullReturn = [this] spawn WFCO_fnc_initTownMode}";
+			init="call{this setVariable [""totalTowns"",51];this enableSimulation false; nullReturn = [this] spawn WFCO_fnc_initTownMode}";
 			id=224;
 			type="Logic";
 			atlOffset=95.677002;
@@ -4247,26 +4246,24 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11973.748,69.764664,8897.1914};
-				angles[]={0.0877726,4.1887903,6.2179446};
+				position[]={12021.653,62.743061,8922.1445};
+				angles[]={0.061256282,3.0787916,6.1795578};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=713;
 			type="Logic";
-			atlOffset=-0.04850769;
 		};
 		class Item137
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={12087.57,38.740368,9319.2588};
-				angles[]={0.0877726,4.1887903,6.2179446};
+				position[]={12036.688,42.37619,9302.1963};
+				angles[]={0.014664836,4.1887903,6.2113094};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=714;
 			type="Logic";
-			atlOffset=-0.091999054;
 		};
 		class Item138
 		{
@@ -4504,26 +4501,24 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={10508.662,6.5977125,2064.397};
-				angles[]={0.0877726,4.1887903,6.2179446};
+				position[]={10686.046,6.2876563,2455.4607};
+				angles[]={6.275177,0.92035377,6.2392135};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=734;
 			type="Logic";
-			atlOffset=0.017419338;
 		};
 		class Item157
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={10070.373,5.98,1971.516};
-				angles[]={0.0877726,4.1887903,6.2179446};
+				position[]={10351.07,5.8084745,2159.4268};
+				angles[]={0.054611389,4.1226292,6.2805333};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=735;
 			type="Logic";
-			atlOffset=-0.03000021;
 		};
 		class Item158
 		{
@@ -4798,23 +4793,22 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7065.7261,6.122787,2655.8601};
-				angles[]={6.0640941,1.7453293,0.055937801};
+				position[]={6912.6396,6,2583.426};
+				angles[]={0,1.7453293,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=759;
 			type="Logic";
-			atlOffset=0.11278677;
 		};
 		class Item180
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6457.2661,6,2326.1531};
+				position[]={6555.062,6,2329.908};
 				angles[]={0,1.7453293,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Chernogorsk""]];}";
 			id=760;
 			type="Logic";
 		};
@@ -4823,22 +4817,23 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6395.9648,6,2409.5669};
-				angles[]={0,4.1015239,0};
+				position[]={6362.5049,6.1593552,2510.4031};
+				angles[]={0.075854406,3.1619928,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AT']];}";
+			init="call{this setVariable ['wf_defense_kind', ['AT', ""Cherno Plant""]];}";
 			id=761;
 			type="Logic";
+			atlOffset=-4.7683716e-007;
 		};
 		class Item182
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6794.9663,6,2658.3188};
-				angles[]={0,4.2760568,0};
+				position[]={6433.2612,6.0076818,2726.2959};
+				angles[]={0,0.65523148,0.0012915437};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Cherno Plant""]];}";
 			id=762;
 			type="Logic";
 		};
@@ -5098,13 +5093,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={10071.955,36.244884,2362.4939};
-				angles[]={6.1861625,1.7453293,0};
+				position[]={9976.5664,6,2051.5054};
+				angles[]={0,4.4216909,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AT']];}";
+			init="call{this setVariable ['wf_defense_kind', ['AT', ""Electro Plant""]];}";
 			id=791;
 			type="Logic";
-			atlOffset=3.8146973e-006;
 		};
 		class Item204
 		{
@@ -5124,7 +5118,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11979.472,70.339073,8875.1465};
-				angles[]={6.1861625,2.9670596,0};
+				angles[]={0.014664836,3.1994689,0.0039967569};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['AT']];}";
 			id=800;
@@ -5135,8 +5129,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={12106.796,35.891659,9343.6436};
-				angles[]={6.1861625,0.71558499,0};
+				position[]={12076.609,40.375675,9298.1963};
+				angles[]={0.043971907,0.71558499,6.2498641};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['AT']];}";
 			id=802;
@@ -5191,7 +5185,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Chernogorsk"",""+"",30,120,800,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Chernogorsk"",""+"",10,40,400,[],[""healStation""],[[2, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
 				name="Chernogorsk";
 				disableSimulation=1;
 			};
@@ -5312,21 +5306,20 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10279.91,8.3827648,1970.03};
-				angles[]={6.244544,2.035403,0.016004669};
+				position[]={10498.388,6.8896914,2352.178};
+				angles[]={0,2.4739168,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Elektrozavodsk"",""+"",30,120,800,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Elektrozavodsk"",""+"",10,40,400,[],[""fuelStation"", ""repairStation""], [[2, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
 				name="Elektrozavodsk";
 				disableSimulation=1;
 			};
 			id=818;
 			type="Land_BagBunker_Large_F";
-			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6869,7 +6862,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Berezino"",""+"",30,120,800,[],[""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Berezino"",""+"",30,100,600,[],[""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Berezino";
 				disableSimulation=1;
 			};
@@ -7600,7 +7593,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6476.9082,8.2118025,2345.551};
+				position[]={6573.7051,8.2118025,2315.7444};
 				angles[]={0,5.5359049,0};
 			};
 			side="Empty";
@@ -7681,8 +7674,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7046.2622,8.191803,2684.613};
-				angles[]={0,0.92931795,0};
+				position[]={6897.418,8.2118025,2602.5781};
+				angles[]={0,0.73594838,0};
 			};
 			side="Empty";
 			flags=4;
@@ -7695,7 +7688,6 @@ class Mission
 			};
 			id=862;
 			type="Land_Fort_Watchtower_EP1";
-			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8253,8 +8245,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10080.657,8.2193356,1983.35};
-				angles[]={0.0012915437,6.0634308,0};
+				position[]={10353.077,7.9676986,2185.6802};
+				angles[]={0,0.76705998,6.2818937};
 			};
 			side="Empty";
 			flags=4;
@@ -8267,7 +8259,6 @@ class Mission
 			};
 			id=871;
 			type="Land_Fort_Watchtower_EP1";
-			atlOffset=0.001999855;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8335,8 +8326,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10515.312,8.7073689,2087.0569};
-				angles[]={0.055937801,5.8468528,6.2631841};
+				position[]={10672.562,8.403614,2450.2627};
+				angles[]={6.2525291,1.0565636,0.0066682254};
 			};
 			side="Empty";
 			flags=4;
@@ -8349,7 +8340,7 @@ class Mission
 			};
 			id=872;
 			type="Land_Fort_Watchtower_EP1";
-			atlOffset=-0.0029997826;
+			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12323,8 +12314,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11980.515,71.204933,8907.0117};
-				angles[]={0.049288094,6.2091136,6.1336455};
+				position[]={12005.799,65.660461,8938.9883};
+				angles[]={0.066567369,4.5069499,6.148015};
 			};
 			side="Empty";
 			flags=4;
@@ -12337,7 +12328,6 @@ class Mission
 			};
 			id=921;
 			type="Land_Fort_Watchtower_EP1";
-			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12405,8 +12395,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12105.904,39.351376,9326.5947};
-				angles[]={0.075852014,0.66226518,6.1089664};
+				position[]={12048.208,43.850941,9294.1816};
+				angles[]={0.025327841,0.66226518,6.2245865};
 			};
 			side="Empty";
 			flags=4;
@@ -13135,8 +13125,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12773.257,6.8896914,9671.8408};
-				angles[]={0,1.7739178,0};
+				position[]={12721.19,6.8796911,9638.0039};
+				angles[]={0,1.7469176,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13181,7 +13171,7 @@ class Mission
 				position[]={12890.938,6,9744.4854};
 				angles[]={0,3.6651914,0};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Krasnostav Warehouse""]];}";
 			id=1020;
 			type="Logic";
 		};
@@ -13190,12 +13180,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={12626.607,5.9909544,9687.3916};
-				angles[]={0,4.1887903,0.0026520467};
+				position[]={12626.607,5.9909539,9687.3916};
+				angles[]={0,4.1887903,0.0026529003};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Krasnostav Warehouse""]];}";
 			id=1021;
 			type="Logic";
+			atlOffset=-4.7683716e-007;
 		};
 		class Item331
 		{
@@ -13963,6 +13954,312 @@ class Mission
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=1064;
+			type="Logic";
+		};
+		class Item374
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7164.6729,6.8896914,2236.186};
+				angles[]={0,3.0006921,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Cherno Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				name="Chernogorsk_Port";
+				disableSimulation=1;
+			};
+			id=1065;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item375
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={7249.4824,6.0249023,2287.0066};
+				angles[]={0,6.0263152,0};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Cherno Port""]];}";
+			id=1066;
+			type="Logic";
+		};
+		class Item376
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6410.417,6.8796911,2599.178};
+				angles[]={0,2.2973244,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Cherno Plant"",""+"",10,40,400, [""plant""], [""healStation"",""fuelStation""],[[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				name="Chernogorsk_Plant";
+				disableSimulation=1;
+			};
+			id=1067;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item377
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10384.746,6.8896914,1697.954};
+				angles[]={0,4.3097415,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Electro Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				name="Elektrozavodsk_Port";
+				disableSimulation=1;
+			};
+			id=1068;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item378
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10087.199,6.896245,1982.585};
+				angles[]={0.0012915437,4.5290771,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Electro Plant"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				name="Elektrozavodsk_Plant";
+				disableSimulation=1;
+			};
+			id=1069;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item379
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={10400.77,4.0100002,1747.45};
+				angles[]={0,2.9670596,0};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Electro Port""]];}";
+			id=1070;
+			type="Logic";
+		};
+		class Item380
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13175.44,5.8400111,10214.2};
+				angles[]={6.2418733,4.0486054,6.1703324};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Berezino Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				name="Berezino_Port";
+				disableSimulation=1;
+			};
+			id=1071;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item381
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={13100.786,6,10374.277};
+				angles[]={0,5.0518441,0};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Berezino Port""]];}";
+			id=1072;
+			type="Logic";
+		};
+		class Item382
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12824.871,6.8196912,10086.866};
+				angles[]={0,1.6997586,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Berezino Plant"",""+"",10,40,400, [""plant""], [""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				name="Berezino_Plant";
+				disableSimulation=1;
+			};
+			id=1073;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item383
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={12807.905,6.6285596,10222.966};
+				angles[]={6.2738566,5.0211444,6.2525291};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Berezino Plant""]];}";
+			id=1074;
 			type="Logic";
 		};
 	};
