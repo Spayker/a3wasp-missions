@@ -4187,6 +4187,7 @@ class Mission
 			};
 			id=3037;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4435,7 +4436,6 @@ class Mission
 			};
 			id=3040;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4518,6 +4518,7 @@ class Mission
 			};
 			id=3041;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5898,7 +5899,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Zargabad_Air_Base";
 				disableSimulation=1;
 			};

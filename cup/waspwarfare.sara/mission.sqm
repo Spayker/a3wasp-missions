@@ -686,6 +686,7 @@ class Mission
 			};
 			id=29;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1538,6 +1539,7 @@ class Mission
 			};
 			id=63;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1691,6 +1693,7 @@ class Mission
 			};
 			id=68;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1935,7 +1938,6 @@ class Mission
 			};
 			id=75;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2821,6 +2823,7 @@ class Mission
 			};
 			id=120;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4112,6 +4115,7 @@ class Mission
 			};
 			id=180;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4593,7 +4597,6 @@ class Mission
 			};
 			id=204;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5285,6 +5288,7 @@ class Mission
 			};
 			id=490;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9304,6 +9308,7 @@ class Mission
 			};
 			id=946;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9684,13 +9689,12 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Rahmadi Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Rahmadi Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Rahmadi_Air_Base";
 				disableSimulation=1;
 			};
 			id=975;
 			type="Land_Ss_hangard";
-			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9837,13 +9841,12 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Antigua Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Antigua Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Antigua_Air_Base";
 				disableSimulation=1;
 			};
 			id=980;
 			type="Land_Ss_hangard";
-			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9990,7 +9993,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Paraiso Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Paraiso Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Paraiso_Air_Base";
 				disableSimulation=1;
 			};
@@ -10142,13 +10145,12 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Pita Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Pita Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Pita_Air_Base";
 				disableSimulation=1;
 			};
 			id=990;
 			type="Land_Ss_hangard";
-			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0

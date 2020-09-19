@@ -321,6 +321,7 @@ class Mission
 			};
 			id=8;
 			type="Land_BagBunker_Large_F";
+			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -819,6 +820,7 @@ class Mission
 			};
 			id=36;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -880,6 +882,7 @@ class Mission
 			};
 			id=40;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-1.1920929e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1047,6 +1050,7 @@ class Mission
 			};
 			id=50;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1482,6 +1486,7 @@ class Mission
 			};
 			id=70;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1917,6 +1922,7 @@ class Mission
 			};
 			id=105;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2290,6 +2296,7 @@ class Mission
 			};
 			id=135;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2663,6 +2670,7 @@ class Mission
 			};
 			id=167;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2787,7 +2795,6 @@ class Mission
 			};
 			id=174;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3037,6 +3044,7 @@ class Mission
 			};
 			id=189;
 			type="Land_BagBunker_Large_F";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3099,6 +3107,7 @@ class Mission
 			};
 			id=193;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11963,13 +11972,12 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Bala Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Bala Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Bala_Air_Base";
 				disableSimulation=1;
 			};
 			id=1849;
 			type="Land_Ss_hangard";
-			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12116,13 +12124,12 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Jeorge Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Jeorge Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Jeorge_Air_Base";
 				disableSimulation=1;
 			};
 			id=1854;
 			type="Land_Ss_hangard";
-			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12269,13 +12276,12 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Tanoa Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Tanoa Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Tanoa_Air_Base";
 				disableSimulation=1;
 			};
 			id=1859;
 			type="Land_Ss_hangard";
-			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12422,13 +12428,12 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Tuvanaka Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Tuvanaka Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Tuvanaka_Air_Base";
 				disableSimulation=1;
 			};
 			id=1864;
 			type="Land_Ss_hangard";
-			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12575,13 +12580,12 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Rochelle Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Rochelle Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Rochelle_Air_Base";
 				disableSimulation=1;
 			};
 			id=1869;
 			type="Land_Ss_hangard";
-			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0

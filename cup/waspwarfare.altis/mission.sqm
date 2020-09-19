@@ -283,7 +283,7 @@ class Mission
 			};
 			id=5;
 			type="Land_BagBunker_Large_F";
-			atlOffset=1.9073486e-006;
+			atlOffset=3.8146973e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -633,6 +633,7 @@ class Mission
 			};
 			id=37;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1769,7 +1770,7 @@ class Mission
 			};
 			id=126;
 			type="Land_BagBunker_Large_F";
-			atlOffset=1.9073486e-006;
+			atlOffset=3.8146973e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2285,6 +2286,7 @@ class Mission
 			};
 			id=174;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2364,6 +2366,7 @@ class Mission
 			};
 			id=180;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2431,7 +2434,6 @@ class Mission
 			};
 			id=185;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3229,6 +3231,7 @@ class Mission
 			};
 			id=536;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6449,7 +6452,6 @@ class Mission
 			};
 			id=1034;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11128,6 +11130,7 @@ class Mission
 			};
 			id=1235;
 			type="Land_BagBunker_Large_F";
+			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12004,7 +12007,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Gravia Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Gravia Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Gravia_Air_Base";
 				disableSimulation=1;
 			};
@@ -12156,7 +12159,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Therisa Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Therisa Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Therisa_Air_Base";
 				disableSimulation=1;
 			};
@@ -12302,12 +12305,12 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9193.2578,21.67786,21632.855};
-				angles[]={0,5.76161,0};
+				angles[]={0,5.761611,0};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Abdera Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Abdera Air Base"",""+"",10,50,500, [""airBase""]] spawn WFCO_fnc_initTown;}";
 				name="Abdera_Air_Base_1";
 				disableSimulation=1;
 			};
@@ -12460,7 +12463,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Selakano Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Selakano Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Selakano_Air_Base";
 				disableSimulation=1;
 			};
@@ -12613,7 +12616,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Molos Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Molos Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Molos_Air_Base";
 				disableSimulation=1;
 			};

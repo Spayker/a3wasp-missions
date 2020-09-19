@@ -5326,6 +5326,7 @@ class Mission
 			};
 			id=818;
 			type="Land_BagBunker_Large_F";
+			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5753,6 +5754,7 @@ class Mission
 			};
 			id=827;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13541,7 +13543,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Krasnostav Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Krasnostav Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Krasnostav_Air_Base";
 				disableSimulation=1;
 			};
@@ -13693,7 +13695,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Lopatino Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lopatino Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Lopatino_Air_Base";
 				disableSimulation=1;
 			};
@@ -13845,7 +13847,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Lopatino Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lopatino Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Balota_Air_Base";
 				disableSimulation=1;
 			};

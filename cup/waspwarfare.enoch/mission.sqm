@@ -653,6 +653,7 @@ class Mission
 			};
 			id=56;
 			type="Land_BagBunker_Large_F";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1899,6 +1900,7 @@ class Mission
 			};
 			id=180;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4516,6 +4518,7 @@ class Mission
 			};
 			id=1123;
 			type="Land_BagBunker_Large_F";
+			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4616,7 +4619,6 @@ class Mission
 			};
 			id=1129;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8885,7 +8887,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Gliniska Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Gliniska Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Gliniska_Air_Base";
 				disableSimulation=1;
 			};

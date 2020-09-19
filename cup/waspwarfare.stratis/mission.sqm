@@ -784,7 +784,7 @@ class Mission
 			};
 			id=22;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-4.7683716e-007;
+			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -908,6 +908,7 @@ class Mission
 			};
 			id=24;
 			type="Land_BagBunker_Large_F";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4734,13 +4735,12 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Air Base"",""+"",10,120,600,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Air Base"",""+"",10,120,600, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Air_Base";
 				disableSimulation=1;
 			};
 			id=678;
 			type="Land_Ss_hangard";
-			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0

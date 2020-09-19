@@ -3583,6 +3583,7 @@ class Mission
 			};
 			id=710;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3747,7 +3748,7 @@ class Mission
 			};
 			id=712;
 			type="Land_BagBunker_Large_F";
-			atlOffset=0.0020008087;
+			atlOffset=0.0020027161;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4531,7 +4532,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Air Base"",""+"",10,120,600,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Air Base"",""+"",10,120,600, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Air_Base";
 				disableSimulation=1;
 			};
