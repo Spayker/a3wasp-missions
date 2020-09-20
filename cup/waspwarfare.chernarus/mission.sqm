@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={13162.488,45.982849,10175.516};
+		pos[]={13153.516,69.63118,10146.561};
 		dir[]={-0.011095652,-0.58687735,0.80960292};
 		up[]={-0.0080424221,0.80967408,0.58682197};
 		aside[]={0.99990731,-1.4279067e-009,0.013703829};
@@ -12949,7 +12949,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Olsha  Radar"",""+"",10,50,500, [""radar""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Olsha "",""+"",10,50,500, [""radar""]] spawn WFCO_fnc_initTown;}";
 				name="Olsha_Radar";
 				disableSimulation=1;
 			};
@@ -13024,7 +13024,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Green Mountain   Radar"",""+"",10,50,500, [""radar""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Green Mountain"",""+"",10,50,500, [""radar""]] spawn WFCO_fnc_initTown;}";
 				name="Green_Mountain_Radar";
 				disableSimulation=1;
 			};
@@ -13580,7 +13580,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Lopatino Air Base"",""+"",10,50,500,[""HugeTown1"",""HugeTown2""], [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lopatino Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Lopatino_Air_Base";
 				disableSimulation=1;
 			};
@@ -13874,7 +13874,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Cherno Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Cherno Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Chernogorsk_Port";
 				disableSimulation=1;
 			};
@@ -13909,15 +13909,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6412.4072,6.8798146,2603.4553};
-				angles[]={0,2.235347,6.2818937};
+				position[]={6412.4072,6.8798146,2603.4551};
+				angles[]={0,2.235348,6.2818937};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Cherno Plant"",""+"",30,40,400, [""plant""], [""healStation"",""fuelStation""],[[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Cherno Plant"",""+"",10,40,400, [""plant""], [""healStation"",""fuelStation""],[[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Chernogorsk_Plant";
 				disableSimulation=1;
 			};
@@ -13959,7 +13959,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Electro Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Electro Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Elektrozavodsk_Port";
 				disableSimulation=1;
 			};
@@ -14070,7 +14070,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Berezino Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Berezino Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Berezino_Port";
 				disableSimulation=1;
 			};

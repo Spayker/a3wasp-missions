@@ -12328,6 +12328,7 @@ class Mission
 			};
 			id=921;
 			type="Land_Fort_Watchtower_EP1";
+			atlOffset=-3.8146973e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13969,7 +13970,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Cherno Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Cherno Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Chernogorsk_Port";
 				disableSimulation=1;
 			};
@@ -14067,7 +14068,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Electro Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Electro Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Elektrozavodsk_Port";
 				disableSimulation=1;
 			};
@@ -14165,7 +14166,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Berezino Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Berezino Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Berezino_Port";
 				disableSimulation=1;
 			};

@@ -259,7 +259,7 @@ class Mission
 			};
 			id=4;
 			type="Land_BagBunker_Large_F";
-			atlOffset=0.17499995;
+			atlOffset=0.17500019;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3644,7 +3644,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13705.58,2.55,11786.549};
-				angles[]={-0,2.5671177,0};
+				angles[]={0,2.5671177,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG', ""Blue Pearl Warehouse""]];}";
 			id=411;
@@ -4035,7 +4035,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5921.231,7.48,10612.854};
-				angles[]={-0,0.0015513339,0};
+				angles[]={0,0.0015513339,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG',""Georgetown""]];}";
 			id=573;
@@ -4930,6 +4930,7 @@ class Mission
 			init="call{this setVariable ['wf_defense_kind', ['MG',""Lijnhaven""]];}";
 			id=893;
 			type="Logic";
+			atlOffset=-4.863739e-005;
 		};
 		class Item165
 		{
@@ -6843,6 +6844,7 @@ class Mission
 			};
 			id=1669;
 			type="Land_Fort_Watchtower";
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12020,6 +12022,7 @@ class Mission
 			};
 			id=1854;
 			type="Land_Ss_hangard";
+			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12605,7 +12608,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lijnhaven Port"",""+"",10,40,400, [], [""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lijnhaven Port"",""+"",10,40,400, [""port""], [""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Lijnhaven_Port";
 				disableSimulation=1;
 			};
@@ -12674,7 +12677,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Georgetown Port"",""+"",10,40,400, [], [""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Georgetown Port"",""+"",10,40,400, [""port""], [""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Georgetown_Port";
 				disableSimulation=1;
 			};
@@ -12723,7 +12726,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5359.6992,2.21,10134.966};
-				angles[]={-0,5.1485643,0};
+				angles[]={0,5.1485643,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['AA', ""Georgetown Port""]];}";
 			id=1877;
@@ -12742,7 +12745,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Blue Pearl Port"",""+"",10,80,400, [], [], [[2, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Blue Pearl Port"",""+"",10,80,400, [""port""], [], [[2, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
 				name="Blue_Pearl_Port";
 				disableSimulation=1;
 			};
@@ -12791,7 +12794,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13769.7,2.55,12280.685};
-				angles[]={-0,5.1485643,0};
+				angles[]={0,5.1485643,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['AA', ""Blue Pearl Port""]];}";
 			id=1880;

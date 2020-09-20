@@ -6502,7 +6502,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""LePort Port"",""+"",10,40,400, [], [""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""LePort Port"",""+"",10,40,400, [""port""], [""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Leport_Port";
 				disableSimulation=1;
 			};
@@ -6570,7 +6570,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""LaRiviere Port"",""+"",10,40,400, [], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""LaRiviere Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="LaRiviere_Port";
 				disableSimulation=1;
 			};
@@ -6643,6 +6643,7 @@ class Mission
 			};
 			id=1086;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
