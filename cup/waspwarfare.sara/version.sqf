@@ -13,5 +13,5 @@
 
 /* Description.ext Specific */
 #define WF_MAXPLAYERS 55
-#define WF_MISSIONNAME "Warfare V58 Sahrani"
+#define WF_MISSIONNAME "Warfare V59 Sahrani"
 #define WF_RESPAWNDELAY 2

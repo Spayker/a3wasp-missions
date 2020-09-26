@@ -13,5 +13,5 @@
 
 /* Description.ext Specific */
 #define WF_MAXPLAYERS 55
-#define WF_MISSIONNAME "Warfare V58 Chernarus"
+#define WF_MISSIONNAME "Warfare V59 Chernarus"
 #define WF_RESPAWNDELAY 2

@@ -13,5 +13,5 @@
 
 /* Description.ext Specific */
 #define WF_MAXPLAYERS 61
-#define WF_MISSIONNAME "Warfare V58 Takistan"
+#define WF_MISSIONNAME "Warfare V59 Takistan"
 #define WF_RESPAWNDELAY 2

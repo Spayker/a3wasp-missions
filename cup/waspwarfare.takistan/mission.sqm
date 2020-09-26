@@ -232,7 +232,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Takistan V58";
+		briefingName="Warfare In Takistan V59";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
