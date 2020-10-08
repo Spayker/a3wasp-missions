@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16507.283,94.310883,12528.173};
-		dir[]={0.010733483,-0.54177511,0.84045696};
-		up[]={0.0069184499,0.84052229,0.54173094};
-		aside[]={0.9999187,1.8385435e-009,-0.012769974};
+		pos[]={14260.31,93.158699,12984.435};
+		dir[]={-0.052214399,-0.69713926,0.71503574};
+		up[]={-0.050772291,0.71693313,0.6952883};
+		aside[]={0.99734616,1.4115358e-008,0.072829604};
 	};
 };
 binarizationWanted=0;
@@ -5926,7 +5926,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16935.41,17.367266,12871.306};
-				angles[]={-0,5.1487212,6.276526};
+				angles[]={0,5.1487212,6.276526};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG', ""Pyrgos""]];}";
 			id=947;
@@ -11178,13 +11178,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14312.965,-0.00028389692,13084.711};
-				angles[]={0,5.1487212,0};
+				position[]={14364.348,3.128247,13046.711};
+				angles[]={6.1663861,2.2173944,6.129735};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['AA', ""Sagonisi Port""]];}";
 			id=1237;
 			type="Logic";
-			atlOffset=0.56699997;
 		};
 		class Item401
 		{
