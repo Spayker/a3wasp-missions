@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15143.337,201.99704,16968.816};
-		dir[]={0.002776921,-0.54189247,0.8404457};
-		up[]={0.0017904621,0.84044755,0.54189032};
-		aside[]={0.99999595,1.153353e-010,-0.0033040906};
+		pos[]={5463.5889,120.79713,14837.489};
+		dir[]={-0.0051745288,-0.59781051,0.80162358};
+		up[]={-0.0038588298,0.80163682,0.59779876};
+		aside[]={0.99998051,-2.9933744e-010,0.0064549362};
 	};
 };
 binarizationWanted=0;
@@ -219,7 +219,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Altis V59";
+		briefingName="Warfare In Altis V58";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -884,7 +884,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Pyrgos"",""+"",30,80,600,[],[""fuelStation"", ""repairStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Pyrgos"",""+"",30,80,500,[],[""fuelStation"", ""repairStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Pyrgos";
 				disableSimulation=1;
 			};
@@ -1899,7 +1899,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Kavala"",""+"",20,40,400,[],[""healStation""], [[2, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Kavala"",""+"",10,50,400,[],[""healStation""], [[2, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
 				name="Kavala";
 				disableSimulation=1;
 			};
@@ -2289,6 +2289,7 @@ class Mission
 			};
 			id=174;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2539,6 +2540,7 @@ class Mission
 			init="call{this setVariable ['wf_defense_kind', ['AA', ""Athira""]];}";
 			id=194;
 			type="Logic";
+			atlOffset=-7.6293945e-006;
 		};
 		class Item93
 		{
@@ -2688,7 +2690,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Neochori"",""+"",30,120,800] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Neochori"",""+"",30,120,550] spawn WFCO_fnc_initTown;}";
 				name="Neochori";
 				disableSimulation=1;
 			};
@@ -3214,7 +3216,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Magos Power station"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Magos Power station"",""+"",10,50,500, [""plant""]] spawn WFCO_fnc_initTown;}";
 				name="Magos_PowerStation";
 				disableSimulation=1;
 			};
@@ -11102,15 +11104,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14253.032,4.4424248,13046.552};
-				angles[]={0.041311946,3.1240869,0.0066671576};
+				position[]={14251.115,4.5982914,13042.465};
+				angles[]={0.033321146,3.1102619,0.0066682254};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Sagonisi Base"",""+"",50,50,500, [""militaryBase""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Sagonisi Base"",""+"",10,50,450, [""port""]] spawn WFCO_fnc_initTown;}";
 				name="Sagonisi_Base";
 				disableSimulation=1;
 			};
@@ -11166,9 +11168,9 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14231.227,8.1789112,12973.385};
-				angles[]={0.085126832,5.1487212,6.2352209};
+				angles[]={0.085119702,5.1487212,6.2352238};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Sagonisi Base""]];}";
 			id=1236;
 			type="Logic";
 		};
@@ -11177,13 +11179,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14245.529,0,13078.049};
+				position[]={14312.965,0,13084.711};
 				angles[]={0,5.1487212,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA']];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Sagonisi Base""]];}";
 			id=1237;
 			type="Logic";
-			atlOffset=0.47720671;
+			atlOffset=0.56728387;
 		};
 		class Item401
 		{
@@ -11756,8 +11758,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13533.203,11.47071,13165.522};
-				angles[]={5.9880633,0,0.097027354};
+				position[]={13230.44,14.007221,13364.341};
+				angles[]={6.2352223,0,6.2352238};
 			};
 			id=1277;
 			type="LocationOutpost_F";
@@ -12810,7 +12812,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Aggelochori"",""+"",10,40,400, [], [""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Aggelochori"",""+"",10,50,400, [], [""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Aggelochori";
 				disableSimulation=1;
 			};
@@ -12872,6 +12874,7 @@ class Mission
 			};
 			id=1318;
 			type="Land_Fort_Watchtower";
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
