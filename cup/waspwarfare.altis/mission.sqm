@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1331;
+		nextID=1334;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5463.5889,120.79713,14837.489};
-		dir[]={-0.0051745288,-0.59781051,0.80162358};
-		up[]={-0.0038588298,0.80163682,0.59779876};
-		aside[]={0.99998051,-2.9933744e-010,0.0064549362};
+		pos[]={16507.283,94.310883,12528.173};
+		dir[]={0.010733483,-0.54177511,0.84045696};
+		up[]={0.0069184499,0.84052229,0.54173094};
+		aside[]={0.9999187,1.8385435e-009,-0.012769974};
 	};
 };
 binarizationWanted=0;
@@ -237,7 +237,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=492;
+		items=495;
 		class Item0
 		{
 			dataType="Logic";
@@ -884,7 +884,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Pyrgos"",""+"",30,80,500,[],[""fuelStation"", ""repairStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Pyrgos"",""+"",10,50,500,[],[""fuelStation"", ""repairStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Pyrgos";
 				disableSimulation=1;
 			};
@@ -920,9 +920,9 @@ class Mission
 			class PositionInfo
 			{
 				position[]={17079.051,14.507889,12689.474};
-				angles[]={6.2805109,6.1959186,0.025327841};
+				angles[]={6.2805147,6.1959186,0.025324726};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Pyrgos""]];}";
 			id=59;
 			type="Logic";
 		};
@@ -932,9 +932,9 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16820.83,22.56279,12712.61};
-				angles[]={0.045302324,2.9670596,6.2725158};
+				angles[]={0.045308746,2.9670596,6.2725215};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Pyrgos""]];}";
 			id=60;
 			type="Logic";
 		};
@@ -2846,7 +2846,7 @@ class Mission
 				position[]={1052.421,133.82901,781.20801};
 			};
 			name="WF_Logic";
-			init="call{this setVariable [""totalTowns"",73];this enableSimulation false;  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
+			init="call{this setVariable [""totalTowns"",74];this enableSimulation false;  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
 			id=224;
 			type="Logic";
 			atlOffset=319.79901;
@@ -5925,39 +5925,37 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={16997.498,16.277716,12863.589};
-				angles[]={0.021327924,5.1487212,0.042638395};
+				position[]={16935.41,17.367266,12871.306};
+				angles[]={-0,5.1487212,6.276526};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Pyrgos""]];}";
 			id=947;
 			type="Logic";
-			atlOffset=0.018997192;
 		};
 		class Item242
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={16683.602,7.9829016,12464.476};
-				angles[]={0.021327924,5.1487212,0.042638395};
+				position[]={16887.264,19.61405,12466.114};
+				angles[]={0.019996032,5.1487212,0.0013372133};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG',""Pyrgos""]];}";
 			id=948;
 			type="Logic";
-			atlOffset=0.050990105;
 		};
 		class Item243
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={16806.57,12.869697,12361.819};
-				angles[]={6.2805109,6.1959186,0.025327841};
+				position[]={16806.57,12.869722,12361.82};
+				angles[]={6.2805147,6.1959186,0.025324726};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Pyrgos""]];}";
 			id=949;
 			type="Logic";
-			atlOffset=0.039989471;
+			atlOffset=0.040000916;
 		};
 		class Item244
 		{
@@ -9242,8 +9240,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17002.5,18.370144,12885.311};
-				angles[]={0,3.7521262,0};
+				position[]={16920.406,20.07642,12860.486};
+				angles[]={6.2418756,2.1265461,6.2778587};
 			};
 			side="Empty";
 			flags=4;
@@ -9255,6 +9253,7 @@ class Mission
 			};
 			id=1177;
 			type="Land_Fort_Watchtower";
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9284,8 +9283,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={16706.881,11.216533,12461.146};
-				angles[]={0,5.2341027,0};
+				position[]={16865.637,21.544003,12478.349};
+				angles[]={0.0012918708,3.5730319,0};
 			};
 			side="Empty";
 			flags=4;
@@ -9297,7 +9296,7 @@ class Mission
 			};
 			id=1178;
 			type="Land_Fort_Watchtower";
-			atlOffset=-9.5367432e-007;
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11104,21 +11103,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14251.115,4.5982914,13042.465};
-				angles[]={0.033321146,3.1102619,0.0066682254};
+				position[]={14251.115,4.5982909,13042.465};
+				angles[]={0.033318337,3.1102641,0.0066671576};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Sagonisi Base"",""+"",10,50,450, [""port""]] spawn WFCO_fnc_initTown;}";
-				name="Sagonisi_Base";
+				init="call{nullReturn = [this,""Sagonisi Port"",""+"",10,50,450, [""port""]] spawn WFCO_fnc_initTown;}";
+				name="Sagonisi_Port";
 				disableSimulation=1;
 			};
 			id=1235;
 			type="Land_BagBunker_Large_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11170,7 +11169,7 @@ class Mission
 				position[]={14231.227,8.1789112,12973.385};
 				angles[]={0.085119702,5.1487212,6.2352238};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG', ""Sagonisi Base""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Sagonisi Port""]];}";
 			id=1236;
 			type="Logic";
 		};
@@ -11179,13 +11178,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14312.965,0,13084.711};
+				position[]={14312.965,-0.00028389692,13084.711};
 				angles[]={0,5.1487212,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Sagonisi Base""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Sagonisi Port""]];}";
 			id=1237;
 			type="Logic";
-			atlOffset=0.56728387;
+			atlOffset=0.56699997;
 		};
 		class Item401
 		{
@@ -13199,6 +13198,73 @@ class Mission
 			};
 			init="call{this setVariable ['wf_defense_kind', ['AA', ""Lakka Plant""]];}";
 			id=1330;
+			type="Logic";
+		};
+		class Item492
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16521.289,3.1596913,12561.988};
+				angles[]={0,2.3948884,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Pyrgos Port"",""+"",10,50,500,['port'],[], [[2, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
+				name="Pyrgos_Port";
+				disableSimulation=1;
+			};
+			id=1331;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item493
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={16482.471,4.363368,12646.542};
+				angles[]={6.2658563,5.6409445,0.0013372133};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Pyrgos Port""]];}";
+			id=1332;
+			type="Logic";
+		};
+		class Item494
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={16545.621,2.27,12499.117};
+				angles[]={0,2.6234567,0};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG',""Pyrgos Port""]];}";
+			id=1333;
 			type="Logic";
 		};
 	};
