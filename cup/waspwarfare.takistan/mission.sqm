@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=3231;
+		nextID=3247;
 	};
 	class MarkerIDProvider
 	{
@@ -20,7 +20,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11544.837,271.94379,8408.8809};
+		pos[]={11543.837,277.78152,8396.5068};
 		dir[]={0.10602985,-0.43529129,0.8940286};
 		up[]={0.051265571,0.90028918,0.43226412};
 		aside[]={0.99304414,-1.6611011e-008,-0.11777284};
@@ -10036,7 +10036,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Rasman"",""+"",30,120,400] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Rasman"",""+"",30,120,300] spawn WFCO_fnc_initTown;}";
 				name="Rasman";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
