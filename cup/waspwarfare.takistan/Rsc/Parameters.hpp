@@ -166,6 +166,13 @@ class Params {
 		texts[] = {"Random","Clear","Light","Medium","High","Max"};
 		default = -1;
 	};
+	class WF_C_ENVIRONMENT_FAST_TIME {
+        title = "$STR_WF_PARAMETER_Fast_Time";
+        values[] = {1,5,10,15,20,25,30,35,40,45,50,55,60};
+        texts[] = {"1x (1game min. = 1real min.)","5x","10x","15x","20x","25x","30x (1game min. = 2real sec.)","35x","40x","45x","50x","55x","60x (1game min. = 1real sec.)"};
+        default = 15;
+        function = "BIS_fnc_paramTimeAcceleration";
+    };
 	class WF_C_UNITS_CLEAN_TIMEOUT {
 		title = "$STR_WF_PARAMETER_BodiesTimeout";
 		values[] = {60,120,180,240,300,600,900,1200,1800,2400,3000,3600};
