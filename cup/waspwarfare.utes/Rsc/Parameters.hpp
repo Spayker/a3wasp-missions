@@ -279,7 +279,7 @@ class Params {
 		title = "$STR_WF_PARAMETER_ICBM_TIMEOUT";
 		values[] = {5,180,300,420,600};
 		texts[] = {"5","180","300","420","600"};
-		default = 600;
+		default = 300;
 	};
 	class WF_C_RESPAWN_CAMPS_MODE {
 		title = "$STR_WF_PARAMETER_Camp";
