@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1334;
+		nextID=1340;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14260.31,93.158699,12984.435};
-		dir[]={-0.052214399,-0.69713926,0.71503574};
-		up[]={-0.050772291,0.71693313,0.6952883};
-		aside[]={0.99734616,1.4115358e-008,0.072829604};
+		pos[]={23309.217,123.31444,24047.773};
+		dir[]={-0.045586348,-0.83003217,0.55585879};
+		up[]={-0.067844324,0.55771118,0.8272562};
+		aside[]={0.9966585,-2.0177686e-007,0.081736937};
 	};
 };
 binarizationWanted=0;
@@ -237,7 +237,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=495;
+		items=501;
 		class Item0
 		{
 			dataType="Logic";
@@ -1623,7 +1623,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Kore"",""+"",10,40,450,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Kore"",""+"",10,50,450,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Kore";
 				disableSimulation=1;
 			};
@@ -2846,7 +2846,7 @@ class Mission
 				position[]={1052.421,133.82901,781.20801};
 			};
 			name="WF_Logic";
-			init="call{this setVariable [""totalTowns"",74];this enableSimulation false;  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
+			init="call{this setVariable [""totalTowns"",76];this enableSimulation false;  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
 			id=224;
 			type="Logic";
 			atlOffset=319.79901;
@@ -8733,7 +8733,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20851.322,47.502411,6548.4058};
+				position[]={20853.748,46.682621,6551.0396};
+				angles[]={0.14562827,3.9464283,6.1063843};
 			};
 			side="Empty";
 			flags=4;
@@ -12420,8 +12421,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20898.814,27.566992,7272.3774};
-				angles[]={0.0026520467,0.61757195,0};
+				position[]={20894.717,26.925308,7294.7144};
+				angles[]={0.062584557,1.7029172,6.2805109};
 			};
 			id=1302;
 			type="LocationRespawnPoint_F";
@@ -12431,8 +12432,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20798.035,29.125957,7227.7593};
-				angles[]={0.0026744273,5.6599417,6.2645216};
+				position[]={20828.199,27.961424,7246.0293};
+				angles[]={0.0013372133,1.0255601,0.0039967569};
 			};
 			id=1303;
 			type="LocationRespawnPoint_F";
@@ -12442,8 +12443,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20870.211,34.382568,7235.8408};
-				angles[]={6.2431998,3.7562628,0.020001473};
+				position[]={20792.021,35.112007,7221.3467};
+				angles[]={-0,4.1373911,6.2818937};
 			};
 			side="Empty";
 			flags=4;
@@ -12455,7 +12456,6 @@ class Mission
 			};
 			id=1304;
 			type="Land_Ss_hangard";
-			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13265,6 +13265,141 @@ class Mission
 			init="call{this setVariable ['wf_defense_kind', ['MG',""Pyrgos Port""]];}";
 			id=1333;
 			type="Logic";
+		};
+		class Item495
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10239.18,96.165581,14846.381};
+				angles[]={6.2685246,5.4900732,0.0053232545};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Alikampos Plant"",""+"",10,50,400, [""plant""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				name="Alikampos_Plant";
+				disableSimulation=1;
+			};
+			id=1334;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item496
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={10214.403,97.103859,14889.84};
+				angles[]={6.1901245,5.5618057,0.041311946};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Alikampos Plant""]];}";
+			id=1335;
+			type="Logic";
+		};
+		class Item497
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={10262.773,109.5004,14944.15};
+				angles[]={6.1650786,4.8008771,0.089099057};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['AT', ""Alikampos Plant""]];}";
+			id=1336;
+			type="Logic";
+		};
+		class Item498
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9524.7969,128.24815,15113.857};
+				angles[]={0.0013439035,0.83547163,6.2818413};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Agios Plant"",""+"",10,50,400, [""plant""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				name="Agios_Plant";
+				disableSimulation=1;
+			};
+			id=1337;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item499
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9507.3291,136.15913,15219.518};
+				angles[]={0.078504913,5.7692552,0.012007865};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Agios Plant""]];}";
+			id=1338;
+			type="Logic";
+		};
+		class Item500
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9560.6689,132.06082,15156.18};
+				angles[]={6.1650786,5.4837375,0.21654299};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['AT', ""Agios Plant""]];}";
+			id=1339;
+			type="Logic";
+			atlOffset=1.5258789e-005;
 		};
 	};
 };
