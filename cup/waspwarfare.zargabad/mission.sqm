@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4906.9214,143.2937,4495.7085};
-		dir[]={0.01514047,-0.49884194,0.86656582};
-		up[]={0.0087143369,0.86669087,0.49876612};
-		aside[]={0.99984944,-1.4588295e-009,-0.017469209};
+		pos[]={3522.6296,85.288208,3729.917};
+		dir[]={0.26484928,-0.36927029,0.89078552};
+		up[]={0.10523934,0.92932117,0.35395843};
+		aside[]={0.95853257,4.8137736e-008,-0.28499159};
 	};
 };
 binarizationWanted=0;
@@ -258,7 +258,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=146;
+		items=145;
 		class Item0
 		{
 			dataType="Marker";
@@ -3851,7 +3851,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Azizayt"",""+"",10,50,500,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Azizayt"",""+"",10,50,300,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Azizayt";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
@@ -3933,7 +3933,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Dam Abi Shur"",""+"",10,40,400] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Dam Abi Shur"",""+"",10,40,300] spawn WFCO_fnc_initTown;}";
 				name="Dam_Abi_Shur";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
@@ -4015,7 +4015,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Hazarbag"",""+"",10,60,600,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Hazarbag"",""+"",20,60,350,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Hazarbag";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
@@ -4097,8 +4097,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Military Base"",""+"",10,50,500,[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
-				name="Military_Base";
+				init="call{nullReturn = [this,""North Base"",""+"",50,50,300,[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				name="North_Military_Base";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
 			};
@@ -4180,7 +4180,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Nango"",""+"",20,70,700] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Nango"",""+"",20,70,350] spawn WFCO_fnc_initTown;}";
 				name="Nango";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
@@ -4263,7 +4263,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Shabaz"",""+"",20,80,700] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Shabaz"",""+"",20,80,300] spawn WFCO_fnc_initTown;}";
 				name="Shabaz";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
@@ -4346,7 +4346,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""The Villa"",""+"",10,40,450] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""The Villa"",""+"",10,40,300] spawn WFCO_fnc_initTown;}";
 				name="The_Villa";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
@@ -4429,7 +4429,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Yarum"",""+"",20,80,500] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Yarum"",""+"",20,80,300] spawn WFCO_fnc_initTown;}";
 				name="Yarum";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
@@ -4511,7 +4511,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Zargabad"",""+"",30,120,900,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Zargabad"",""+"",30,120,400,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Zargabad";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
@@ -4834,68 +4834,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4805.7539,31.99007,6158.4468};
-				angles[]={0.0024958209,1.5707964,0.0024958209};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="call{this setVariable [""WF_CAMP_TOWN"", ""Military Base""];}";
-				disableSimulation=1;
-			};
-			id=3046;
-			type="Land_Fort_Watchtower_EP1";
-			atlOffset=-1.9073486e-006;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="pitch";
-					expression="_this setpitch _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.89999998;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item110
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={2848.606,22.208496,3332.2209};
 				angles[]={6.2133021,0.41980404,6.1539087};
 			};
@@ -4952,7 +4890,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item111
+		class Item110
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5014,7 +4952,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item112
+		class Item111
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5076,7 +5014,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item113
+		class Item112
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5138,7 +5076,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item114
+		class Item113
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5200,7 +5138,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item115
+		class Item114
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5261,7 +5199,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item116
+		class Item115
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5322,7 +5260,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item117
+		class Item116
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5403,7 +5341,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item118
+		class Item117
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5484,7 +5422,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item119
+		class Item118
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5497,7 +5435,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Firuz Baharv"",""+"",10,40,400,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Firuz Baharv"",""+"",10,40,300,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Firuz_Baharv";
 				disableSimulation=1;
 			};
@@ -5547,7 +5485,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item120
+		class Item119
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5608,7 +5546,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item121
+		class Item120
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5620,7 +5558,7 @@ class Mission
 			id=3114;
 			type="Logic";
 		};
-		class Item122
+		class Item121
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5632,7 +5570,7 @@ class Mission
 			id=3115;
 			type="Logic";
 		};
-		class Item123
+		class Item122
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5644,7 +5582,7 @@ class Mission
 			id=3116;
 			type="Logic";
 		};
-		class Item124
+		class Item123
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5657,7 +5595,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Military Base"",""+"",10,50,500, [""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""South Base"",""+"",50,50,300, [""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="South_Military_Base";
 				disableSimulation=1;
 			};
@@ -5687,7 +5625,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item125
+		class Item124
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5699,7 +5637,7 @@ class Mission
 			id=3118;
 			type="Logic";
 		};
-		class Item126
+		class Item125
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5711,7 +5649,7 @@ class Mission
 			id=3119;
 			type="Logic";
 		};
-		class Item127
+		class Item126
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5722,7 +5660,7 @@ class Mission
 			id=3120;
 			type="LocationOutpost_F";
 		};
-		class Item128
+		class Item127
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5733,7 +5671,7 @@ class Mission
 			id=3121;
 			type="LocationOutpost_F";
 		};
-		class Item129
+		class Item128
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5744,7 +5682,7 @@ class Mission
 			id=3122;
 			type="LocationOutpost_F";
 		};
-		class Item130
+		class Item129
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5755,7 +5693,7 @@ class Mission
 			id=3123;
 			type="LocationOutpost_F";
 		};
-		class Item131
+		class Item130
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5766,7 +5704,7 @@ class Mission
 			id=3124;
 			type="LocationOutpost_F";
 		};
-		class Item132
+		class Item131
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5777,7 +5715,7 @@ class Mission
 			id=3125;
 			type="LocationOutpost_F";
 		};
-		class Item133
+		class Item132
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5788,7 +5726,7 @@ class Mission
 			id=3126;
 			type="LocationOutpost_F";
 		};
-		class Item134
+		class Item133
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5799,7 +5737,7 @@ class Mission
 			id=3127;
 			type="LocationOutpost_F";
 		};
-		class Item135
+		class Item134
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5810,7 +5748,7 @@ class Mission
 			id=3128;
 			type="LocationOutpost_F";
 		};
-		class Item136
+		class Item135
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5821,7 +5759,7 @@ class Mission
 			id=3129;
 			type="LocationOutpost_F";
 		};
-		class Item137
+		class Item136
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5832,7 +5770,7 @@ class Mission
 			id=3130;
 			type="LocationOutpost_F";
 		};
-		class Item138
+		class Item137
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5843,7 +5781,7 @@ class Mission
 			id=3131;
 			type="LocationOutpost_F";
 		};
-		class Item139
+		class Item138
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5854,7 +5792,7 @@ class Mission
 			id=3132;
 			type="LocationOutpost_F";
 		};
-		class Item140
+		class Item139
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5865,7 +5803,7 @@ class Mission
 			id=3133;
 			type="LocationOutpost_F";
 		};
-		class Item141
+		class Item140
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5876,7 +5814,7 @@ class Mission
 			id=3134;
 			type="LocationRespawnPoint_F";
 		};
-		class Item142
+		class Item141
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5887,19 +5825,19 @@ class Mission
 			id=3135;
 			type="LocationRespawnPoint_F";
 		};
-		class Item143
+		class Item142
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={3537.322,27.893124,3822.012};
-				angles[]={6.2806892,4.725636,6.2781935};
+				angles[]={6.2806892,1.6149532,6.2781935};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Air Base"",""+"",10,50,200, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Zargabad_Air_Base";
 				disableSimulation=1;
 			};
@@ -5993,7 +5931,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item144
+		class Item143
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6005,7 +5943,7 @@ class Mission
 			id=3137;
 			type="Logic";
 		};
-		class Item145
+		class Item144
 		{
 			dataType="Logic";
 			class PositionInfo
