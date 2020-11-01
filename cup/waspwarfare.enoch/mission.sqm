@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1414;
+		nextID=1420;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1878.8385,419.35663,9224.5342};
-		dir[]={-0.0075846338,-0.62293065,0.78224838};
-		up[]={-0.0060399184,0.78227419,0.62290287};
-		aside[]={0.99996161,-1.8613196e-007,0.0096960953};
+		pos[]={2986.012,339.31595,1073.2628};
+		dir[]={0.13747558,-0.74726623,0.65015179};
+		up[]={0.15459213,0.6645236,0.73110038};
+		aside[]={0.97836775,1.6989361e-008,-0.20687725};
 	};
 };
 binarizationWanted=0;
@@ -237,7 +237,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=299;
+		items=302;
 		class Item0
 		{
 			dataType="Marker";
@@ -301,7 +301,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Polana Mil"",""+"",10,40,450,[""lumberMill""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Polana Mil"",""+"",10,40,350,[""lumberMill""]] spawn WFCO_fnc_initTown;}";
 				name="Polana_Mil";
 				disableSimulation=1;
 			};
@@ -376,7 +376,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Polana"",""+"",10,65,600] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Polana"",""+"",10,65,300] spawn WFCO_fnc_initTown;}";
 				name="Polana";
 				disableSimulation=1;
 			};
@@ -462,7 +462,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Nadbor"",""+"",30,80,500,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Nadbor"",""+"",30,80,300,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Nadbor";
 				disableSimulation=1;
 			};
@@ -549,7 +549,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Zalesie Warehouse"",""+"",10,50,400,[""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Zalesie Warehouse"",""+"",10,50,300,[""warehouse""]] spawn WFCO_fnc_initTown;}";
 				name="Zalesie_Warehouse";
 				disableSimulation=1;
 			};
@@ -624,13 +624,12 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Nadbor Factory"",""+"",20,80,800, [""plant"",""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Nadbor Factory"",""+"",20,80,300, [""plant"",""warehouse""]] spawn WFCO_fnc_initTown;}";
 				name="Nadbor_Factory";
 				disableSimulation=1;
 			};
 			id=56;
 			type="Land_BagBunker_Large_F";
-			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -711,7 +710,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Wrzeszcz"",""+"",10,40,400] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Wrzeszcz"",""+"",10,40,300] spawn WFCO_fnc_initTown;}";
 				name="Wrzeszcz";
 				disableSimulation=1;
 			};
@@ -773,7 +772,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Gieraltow  Mil"",""+"",10,65,600,[""lumberMill""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Gieraltow  Mil"",""+"",10,65,300,[""lumberMill""]] spawn WFCO_fnc_initTown;}";
 				name="Gieraltow_Mil";
 				disableSimulation=1;
 			};
@@ -860,7 +859,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Adamow"",""+"",10,50,600,[""plant""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Adamow"",""+"",10,50,300,[""plant""]] spawn WFCO_fnc_initTown;}";
 				name="Adamow";
 				disableSimulation=1;
 			};
@@ -946,7 +945,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Dourdan"",""+"",10,40,450] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Dourdan"",""+"",10,40,350] spawn WFCO_fnc_initTown;}";
 				name="Dourdan";
 				disableSimulation=1;
 			};
@@ -1020,7 +1019,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Grabin"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Grabin"",""+"",10,50,300] spawn WFCO_fnc_initTown;}";
 				name="Grabin";
 				disableSimulation=1;
 			};
@@ -1107,7 +1106,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lembork"",""+"",10,60,550] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lembork"",""+"",10,60,350] spawn WFCO_fnc_initTown;}";
 				name="Lembork";
 				disableSimulation=1;
 			};
@@ -1182,7 +1181,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Belawa Warehouse"",""+"",10,50,650, [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Belawa Warehouse"",""+"",10,50,350, [""warehouse""]] spawn WFCO_fnc_initTown;}";
 				name="Belawa_Warehouse";
 				disableSimulation=1;
 			};
@@ -1255,7 +1254,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Zalesie"",""+"",10,60,600] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Zalesie"",""+"",10,60,300] spawn WFCO_fnc_initTown;}";
 				name="Zalesie";
 				disableSimulation=1;
 			};
@@ -1341,7 +1340,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Topolin"",""+"",20,80,400,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Topolin"",""+"",20,80,300,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Topolin";
 				disableSimulation=1;
 			};
@@ -1427,7 +1426,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Radacz"",""+"",10,50,600] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Radacz"",""+"",10,50,300] spawn WFCO_fnc_initTown;}";
 				name="Radacz";
 				disableSimulation=1;
 			};
@@ -1513,7 +1512,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Krsnik Base"",""+"",20,80,700,[""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Krsnik Base"",""+"",20,80,300,[""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Krsnik_Base";
 				disableSimulation=1;
 			};
@@ -1591,20 +1590,21 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9384.9043,48.264893,10687.11};
-				angles[]={0.083008662,4.3446259,0.033588443};
+				position[]={9384.9043,48.264889,10687.11};
+				angles[]={0.083007857,4.3446307,0.033580136};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Tarnow"",""+"",20,80,400] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Tarnow"",""+"",20,80,300] spawn WFCO_fnc_initTown;}";
 				name="Tarnow";
 				disableSimulation=1;
 			};
 			id=143;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-3.8146973e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1686,7 +1686,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Brena"",""+"",20,80,800] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Brena"",""+"",20,80,300] spawn WFCO_fnc_initTown;}";
 				name="Brena";
 				disableSimulation=1;
 			};
@@ -1785,7 +1785,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Gliniska"",""+"",10,50,550] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Gliniska"",""+"",10,50,350] spawn WFCO_fnc_initTown;}";
 				name="Gliniska";
 				disableSimulation=1;
 			};
@@ -1859,13 +1859,12 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Sobotka"",""+"",10,40,400] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Sobotka"",""+"",10,40,300] spawn WFCO_fnc_initTown;}";
 				name="Sobotka";
 				disableSimulation=1;
 			};
 			id=180;
 			type="Land_BagBunker_Large_F";
-			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1946,7 +1945,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lukow"",""+"",20,80,700] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lukow"",""+"",20,80,300] spawn WFCO_fnc_initTown;}";
 				name="Lukow";
 				disableSimulation=1;
 			};
@@ -2044,7 +2043,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Swarog Base"",""+"",10,60,500,[""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Swarog Base"",""+"",10,60,300,[""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Swarog_Base";
 				disableSimulation=1;
 			};
@@ -2118,7 +2117,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Bielawa"",""+"",10,50,500] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Bielawa"",""+"",10,50,300] spawn WFCO_fnc_initTown;}";
 				name="Bielawa";
 				disableSimulation=1;
 			};
@@ -2175,7 +2174,7 @@ class Mission
 				position[]={146.317,247.84976,31.549999};
 			};
 			name="WF_Logic";
-			init="call{this setVariable [""totalTowns"",39];this enableSimulation false;  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
+			init="call{this setVariable [""totalTowns"",40];this enableSimulation false;  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
 			id=224;
 			type="Logic";
 		};
@@ -4065,7 +4064,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Rodzanica Radar"",""+"",10,50,500,[""radar""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Rodzanica Radar"",""+"",10,50,200,[""radar""]] spawn WFCO_fnc_initTown;}";
 				name="Rodzanica_Radar";
 				disableSimulation=1;
 			};
@@ -4153,7 +4152,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Dolnik"",""+"",20,80,800] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Dolnik"",""+"",20,80,300] spawn WFCO_fnc_initTown;}";
 				name="Dolnik";
 				disableSimulation=1;
 			};
@@ -4251,7 +4250,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Gieraltow"",""+"",30,120,800] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Gieraltow"",""+"",30,120,300] spawn WFCO_fnc_initTown;}";
 				name="Gieraltow";
 				disableSimulation=1;
 			};
@@ -4443,13 +4442,12 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Plant"",""+"",10,50,550,[""plant""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Plant"",""+"",10,50,350,[""plant""]] spawn WFCO_fnc_initTown;}";
 				name="Cement_Factory";
 				disableSimulation=1;
 			};
 			id=1123;
 			type="Land_BagBunker_Large_F";
-			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4544,12 +4542,13 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Sitnik"",""+"",10,60,600] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Sitnik"",""+"",10,60,300] spawn WFCO_fnc_initTown;}";
 				name="Sitnik";
 				disableSimulation=1;
 			};
 			id=1129;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4630,7 +4629,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Borek Warehouse"",""+"",10,50,450,[""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Borek Warehouse"",""+"",10,50,350,[""warehouse""]] spawn WFCO_fnc_initTown;}";
 				name="Borek_Warehouse";
 				disableSimulation=1;
 			};
@@ -4728,7 +4727,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Karlin Power plant"",""+"",10,60,550,[""powerPlant""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Karlin Power plant"",""+"",10,60,350,[""powerPlant""]] spawn WFCO_fnc_initTown;}";
 				name="Karlin_PowerPlant";
 				disableSimulation=1;
 			};
@@ -4838,7 +4837,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Huta Mil"",""+"",10,40,450, [""lumberMill""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Huta Mil"",""+"",10,40,350, [""lumberMill""]] spawn WFCO_fnc_initTown;}";
 				name="Huta_Mil";
 				disableSimulation=1;
 			};
@@ -4936,7 +4935,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Muratyn Warehouse"",""+"",10,40,450, [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Muratyn Warehouse"",""+"",10,40,350, [""warehouse""]] spawn WFCO_fnc_initTown;}";
 				name="Muratyn_Warehouse";
 				disableSimulation=1;
 			};
@@ -5033,7 +5032,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Olszanka"",""+"",10,40,450] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Olszanka"",""+"",10,40,350] spawn WFCO_fnc_initTown;}";
 				name="Olszanka";
 				disableSimulation=1;
 			};
@@ -5985,7 +5984,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Bielawa Plant"",""+"",10,50,500, [""plant""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Bielawa Plant"",""+"",10,50,300, [""plant""]] spawn WFCO_fnc_initTown;}";
 				name="Bielawa_Plant";
 				disableSimulation=1;
 			};
@@ -6246,7 +6245,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5950.0928,213.76181,4378.2451};
-				angles[]={-0,5.8150768,0};
+				angles[]={0,5.8150768,0};
 			};
 			side="Empty";
 			flags=4;
@@ -8403,6 +8402,7 @@ class Mission
 			};
 			id=1374;
 			type="Land_Fort_Watchtower";
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8810,7 +8810,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Nadbor Warehouse"",""+"",10,40,400, [""warehouse""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Nadbor Warehouse"",""+"",10,40,300, [""warehouse""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Nadbor_Warehouse";
 				disableSimulation=1;
 			};
@@ -8878,7 +8878,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Nadbor Plant"",""+"",10,40,400, [""plant""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Nadbor Plant"",""+"",10,40,300, [""plant""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Nadbor_Plant";
 				disableSimulation=1;
 			};
@@ -8957,7 +8957,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Topolin Plant"",""+"",10,40,400, [""plant""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Topolin Plant"",""+"",10,40,300, [""plant""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Topolin_Plant";
 				disableSimulation=1;
 			};
@@ -9005,7 +9005,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1462.0868,5.8499999,7539.083};
-				angles[]={-0,5.7487116,0};
+				angles[]={0,5.7487116,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['AA', ""Topolin Plant""]];}";
 			id=1408;
@@ -9029,14 +9029,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9347.0049,17.54969,11204.644};
-				angles[]={-0,4.0679998,0};
+				angles[]={0,4.067996,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Tarnow Plant"",""+"",10,40,400, [""plant""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Tarnow Plant"",""+"",10,40,300, [""plant""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Tarnow_Plant";
 				disableSimulation=1;
 			};
@@ -9088,6 +9088,92 @@ class Mission
 			};
 			init="call{this setVariable ['wf_defense_kind', ['AA', ""Tarnow Plant""]];}";
 			id=1413;
+			type="Logic";
+		};
+		class Item299
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3836.3689,389.66968,1842.337};
+				angles[]={0,1.54418,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Polana Radar"",""+"",10,50,200,[""radar""]] spawn WFCO_fnc_initTown;}";
+				name="Polana_Radar";
+				disableSimulation=1;
+			};
+			id=1417;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="pitch";
+					expression="_this setpitch _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.89999998;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item300
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3809.782,386.79868,1859.8933};
+				angles[]={0.12100255,5.0934925,0.10204656};
+			};
+			init="this setVariable ['wf_defense_kind', ['AT']];";
+			id=1418;
+			type="Logic";
+		};
+		class Item301
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3890.1309,382.45157,1862.537};
+				angles[]={6.2448058,1.1861496,6.1323385};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			id=1419;
 			type="Logic";
 		};
 	};
