@@ -12198,7 +12198,7 @@ class Mission
 				position[]={11884.435,2.5020001,2246.72};
 				angles[]={0,3.0334172,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Lijnhaven Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Lijnhaven Port""]];}";
 			id=1873;
 			type="Logic";
 			atlOffset=0.65200007;
@@ -12211,7 +12211,7 @@ class Mission
 				position[]={11773.479,2.3900001,2368.248};
 				angles[]={0,5.1485643,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Lijnhaven Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Lijnhaven Port""]];}";
 			id=1874;
 			type="Logic";
 			atlOffset=0.54000008;
@@ -12267,7 +12267,7 @@ class Mission
 				position[]={5479.5532,2.862,10225.22};
 				angles[]={0,3.0334172,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Georgetown Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Georgetown Port""]];}";
 			id=1876;
 			type="Logic";
 			atlOffset=0.65199995;
@@ -12280,7 +12280,7 @@ class Mission
 				position[]={5359.6992,2.21,10134.966};
 				angles[]={0,5.1485643,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Georgetown Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Georgetown Port""]];}";
 			id=1877;
 			type="Logic";
 		};
@@ -12335,7 +12335,7 @@ class Mission
 				position[]={13393.33,2.8179998,12439.786};
 				angles[]={0,3.0334172,6.2815623};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Blue Pearl Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Blue Pearl Port""]];}";
 			id=1879;
 			type="Logic";
 			atlOffset=0.26799989;
@@ -12348,7 +12348,7 @@ class Mission
 				position[]={13769.7,2.55,12280.685};
 				angles[]={0,5.1485643,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Blue Pearl Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Blue Pearl Port""]];}";
 			id=1880;
 			type="Logic";
 		};
@@ -12360,7 +12360,7 @@ class Mission
 				position[]={13541.12,2.6500001,11788.264};
 				angles[]={0,3.8281004,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Blue Pearl Warehouse""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Blue Pearl Warehouse""]];}";
 			id=1881;
 			type="Logic";
 		};

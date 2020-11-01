@@ -1581,7 +1581,7 @@ class Mission
 				position[]={7724.2544,144.01686,9526.709};
 				angles[]={0,3.4906585,0.017595299};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=142;
 			type="Logic";
 		};
@@ -2470,7 +2470,7 @@ class Mission
 				position[]={9277.7832,168.48067,4350.9141};
 				angles[]={6.1954112,1.2217305,0.043174155};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=830;
 			type="Logic";
 		};
@@ -6053,7 +6053,7 @@ class Mission
 				position[]={1132.619,96.981812,9021.6602};
 				angles[]={6.0904136,1.2217305,0.031991884};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=1333;
 			type="Logic";
 		};
@@ -8848,7 +8848,7 @@ class Mission
 				position[]={5518.9731,250.27728,3833.9709};
 				angles[]={6.2129006,4.2159128,0.070284404};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Nadbor Warehouse""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Nadbor Warehouse""]];}";
 			id=1399;
 			type="Logic";
 		};
@@ -8860,7 +8860,7 @@ class Mission
 				position[]={5613.5151,250.60983,3755.3401};
 				angles[]={6.2559929,5.8185434,0.014398966};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Nadbor Warehouse""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Nadbor Warehouse""]];}";
 			id=1400;
 			type="Logic";
 			atlOffset=-1.5258789e-005;
@@ -8916,7 +8916,7 @@ class Mission
 				position[]={6365.0762,141.33,4745.1069};
 				angles[]={0,3.8607206,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Nadbor Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Nadbor Plant""]];}";
 			id=1402;
 			type="Logic";
 		};
@@ -8928,7 +8928,7 @@ class Mission
 				position[]={6457.874,140.57001,4777.5449};
 				angles[]={6.2783856,2.439342,0.0047996556};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Nadbor Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Nadbor Plant""]];}";
 			id=1403;
 			type="Logic";
 		};
@@ -8940,7 +8940,7 @@ class Mission
 				position[]={6421.4058,139.13,4822.3721};
 				angles[]={0,5.3654041,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Nadbor Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Nadbor Plant""]];}";
 			id=1404;
 			type="Logic";
 		};
@@ -9007,7 +9007,7 @@ class Mission
 				position[]={1462.0868,5.8499999,7539.083};
 				angles[]={0,5.7487116,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Topolin Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Topolin Plant""]];}";
 			id=1408;
 			type="Logic";
 		};
@@ -9019,7 +9019,7 @@ class Mission
 				position[]={1606.166,6.8600001,7601.605};
 				angles[]={0,1.6128063,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Topolin Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Topolin Plant""]];}";
 			id=1409;
 			type="Logic";
 		};
@@ -9074,7 +9074,7 @@ class Mission
 				position[]={9225,21.772545,11111.705};
 				angles[]={0.0031939524,5.0253439,6.2783856};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Tarnow Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Tarnow Plant""]];}";
 			id=1412;
 			type="Logic";
 		};
@@ -9086,7 +9086,7 @@ class Mission
 				position[]={9295.5322,16.58,11184.93};
 				angles[]={0,2.464335,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Tarnow Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Tarnow Plant""]];}";
 			id=1413;
 			type="Logic";
 		};

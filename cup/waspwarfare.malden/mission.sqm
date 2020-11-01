@@ -335,7 +335,7 @@ class Mission
 				position[]={1054.8801,3.8553267,662.41974};
 				angles[]={0.028790962,6.0213857,0.041575778};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=8;
 			type="Logic";
 		};
@@ -347,7 +347,7 @@ class Mission
 				position[]={1329.324,31.416401,715.06519};
 				angles[]={6.1206322,1.5707964,6.0483971};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=9;
 			type="Logic";
 		};
@@ -403,7 +403,7 @@ class Mission
 				position[]={1679.415,34.843636,4708.7866};
 				angles[]={5.7714801,0.52359879,0.11706293};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=16;
 			type="Logic";
 		};
@@ -526,7 +526,7 @@ class Mission
 				position[]={7251.6963,166.90518,8173.7622};
 				angles[]={0.0023920804,5.4105206,0.0072011296};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=32;
 			type="Logic";
 		};
@@ -538,7 +538,7 @@ class Mission
 				position[]={7539.2261,187.47,7882.7856};
 				angles[]={0,0.78539819,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=33;
 			type="Logic";
 		};
@@ -550,7 +550,7 @@ class Mission
 				position[]={7324.7603,168.39085,7766.8564};
 				angles[]={0.049559005,4.2760568,0.01280293};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=35;
 			type="Logic";
 		};
@@ -562,7 +562,7 @@ class Mission
 				position[]={6972.3252,164.37051,7767.0864};
 				angles[]={6.2336264,5.3232541,0.051155224};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=36;
 			type="Logic";
 		};
@@ -636,7 +636,7 @@ class Mission
 				position[]={7644.3613,25.91902,3778.8164};
 				angles[]={6.2647886,1.7453423,0.014398213};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=50;
 			type="Logic";
 		};
@@ -767,7 +767,7 @@ class Mission
 				position[]={9346.6387,3.6800001,3779.2344};
 				angles[]={0,1.9198622,0};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=78;
 			type="Logic";
 		};
@@ -779,7 +779,7 @@ class Mission
 				position[]={10066.357,28.15654,4035.4844};
 				angles[]={6.2815661,1.2217305,6.2623887};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=79;
 			type="Logic";
 		};
@@ -834,7 +834,7 @@ class Mission
 				position[]={3146.3359,228.11935,6581.7285};
 				angles[]={0.017598685,5.4105206,6.2456031};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=86;
 			type="Logic";
 		};
@@ -846,7 +846,7 @@ class Mission
 				position[]={3358.3667,230.72847,6262.7046};
 				angles[]={6.2767911,3.577925,0.1139039};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=87;
 			type="Logic";
 		};
@@ -901,7 +901,7 @@ class Mission
 				position[]={7415.0493,119.71333,7184.7432};
 				angles[]={6.1050925,5.3232541,0.44946864};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=96;
 			type="Logic";
 			atlOffset=7.6293945e-006;
@@ -914,7 +914,7 @@ class Mission
 				position[]={7116.7236,72.960258,6953.6699};
 				angles[]={0.047963165,2.1816616,6.1621795};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=97;
 			type="Logic";
 		};
@@ -969,7 +969,7 @@ class Mission
 				position[]={6938.9858,104.28955,8860.502};
 				angles[]={0.0023920804,0.69813168,0.0032018756};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=101;
 			type="Logic";
 		};
@@ -981,7 +981,7 @@ class Mission
 				position[]={7308.7871,85.350105,8821.1543};
 				angles[]={0.0072011296,3.7524579,6.185894};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=104;
 			type="Logic";
 		};
@@ -1036,7 +1036,7 @@ class Mission
 				position[]={7080.7324,79.956436,6262.1401};
 				angles[]={6.1954122,5.497787,6.2097178};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=108;
 			type="Logic";
 		};
@@ -1048,7 +1048,7 @@ class Mission
 				position[]={7114.0698,72.114426,5955.2798};
 				angles[]={0.057536088,2.9670596,6.2503963};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=109;
 			type="Logic";
 		};
@@ -1122,7 +1122,7 @@ class Mission
 				position[]={7051.041,116.93178,10082.091};
 				angles[]={0.58281541,0,6.1175179};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=119;
 			type="Logic";
 		};
@@ -1177,7 +1177,7 @@ class Mission
 				position[]={3497.9233,133.76099,8368.6484};
 				angles[]={0.057536088,3.1415927,0.021595482};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=123;
 			type="Logic";
 		};
@@ -1189,7 +1189,7 @@ class Mission
 				position[]={3642.2053,132.68958,8449.0859};
 				angles[]={0.065506957,2.1816616,0.048762105};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=124;
 			type="Logic";
 		};
@@ -1244,7 +1244,7 @@ class Mission
 				position[]={4448.0229,372.43329,8257.8271};
 				angles[]={0.015998369,4.6251225,6.253592};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=135;
 			type="Logic";
 		};
@@ -1256,7 +1256,7 @@ class Mission
 				position[]={4562.8174,368.98987,7910.2661};
 				angles[]={6.2567906,1.9198622,0.12179448};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=136;
 			type="Logic";
 		};
@@ -1311,7 +1311,7 @@ class Mission
 				position[]={5672.4263,335.62177,6969.3369};
 				angles[]={0,1.3962634,6.259192};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=140;
 			type="Logic";
 		};
@@ -1323,7 +1323,7 @@ class Mission
 				position[]={5364.7026,354.15475,6869.5923};
 				angles[]={0.078241028,3.4906585,6.2200685};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=142;
 			type="Logic";
 		};
@@ -1378,7 +1378,7 @@ class Mission
 				position[]={6225.7021,120.18774,8691.873};
 				angles[]={0.0072011296,4.712389,6.2535939};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=146;
 			type="Logic";
 		};
@@ -1390,7 +1390,7 @@ class Mission
 				position[]={5953.8218,127.22624,8768.8164};
 				angles[]={6.2424073,2.3561945,6.2487988};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=147;
 			type="Logic";
 		};
@@ -1446,7 +1446,7 @@ class Mission
 				position[]={6102.1406,145.73946,10620.004};
 				angles[]={0.26557454,0.34906584,6.2320313};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=161;
 			type="Logic";
 		};
@@ -1520,7 +1520,7 @@ class Mission
 				position[]={7503.4429,29.832571,10524.286};
 				angles[]={0,1.6580628,0};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=167;
 			type="Logic";
 			atlOffset=0.97257042;
@@ -1577,7 +1577,7 @@ class Mission
 				position[]={5423.0923,94.784409,11080.765};
 				angles[]={0.28410143,4.712389,6.1851015};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=183;
 			type="Logic";
 		};
@@ -1589,7 +1589,7 @@ class Mission
 				position[]={5584.2549,67.262794,11295.128};
 				angles[]={0.011995304,0.43633232,0.026392808};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=184;
 			type="Logic";
 		};
@@ -1645,7 +1645,7 @@ class Mission
 				position[]={5846.1455,60.20689,3669.3958};
 				angles[]={6.2296371,5.2359877,6.2424073};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=193;
 			type="Logic";
 		};
@@ -1657,7 +1657,7 @@ class Mission
 				position[]={6021.5024,54.332611,3516.7998};
 				angles[]={0.00077204045,1.3089969,0.023993526};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=194;
 			type="Logic";
 		};
@@ -1669,7 +1669,7 @@ class Mission
 				position[]={5784.4546,55.258312,3429.2908};
 				angles[]={6.2743897,3.577925,6.2272439};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=195;
 			type="Logic";
 		};
@@ -1724,7 +1724,7 @@ class Mission
 				position[]={5284.9731,49.443287,2594.2629};
 				angles[]={0.16021474,0.61086524,6.2767911};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=209;
 			type="Logic";
 		};
@@ -1940,7 +1940,7 @@ class Mission
 				position[]={7712.0918,25.695995,3685.5471};
 				angles[]={0.0023920804,1.7453423,6.2799835};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=603;
 			type="Logic";
 		};
@@ -2035,7 +2035,7 @@ class Mission
 				position[]={5484.7871,107.6843,4121.9961};
 				angles[]={6.2815623,1.2217305,6.2623811};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=836;
 			type="Logic";
 			atlOffset=-0.032997131;
@@ -4465,7 +4465,7 @@ class Mission
 				position[]={7804.3091,210.96349,7630.6279};
 				angles[]={6.2663908,1.2217305,0.015998369};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=1002;
 			type="Logic";
 		};
@@ -6353,7 +6353,7 @@ class Mission
 				position[]={3734.7263,70.669868,4963.6689};
 				angles[]={6.278389,5.1819258,6.2384167};
 			};
-			init="this setVariable ['wf_defense_kind', ['AA']];";
+			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=1073;
 			type="Logic";
 		};
