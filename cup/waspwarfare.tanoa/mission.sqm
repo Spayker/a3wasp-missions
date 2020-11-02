@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={9464.4697,245.25697,12895.787};
-		dir[]={0,-0.554654,0.83208233};
-		up[]={0,0.83208072,0.5546543};
-		aside[]={1.0000006,0,0};
+		pos[]={13628.549,27.549999,11769.364};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -259,7 +259,7 @@ class Mission
 			};
 			id=4;
 			type="Land_BagBunker_Large_F";
-			atlOffset=0.17499995;
+			atlOffset=0.17500019;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -821,6 +821,7 @@ class Mission
 			};
 			id=36;
 			type="Land_BagBunker_Large_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1486,6 +1487,7 @@ class Mission
 			};
 			id=70;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1921,6 +1923,7 @@ class Mission
 			};
 			id=105;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2356,7 +2359,6 @@ class Mission
 			};
 			id=140;
 			type="Land_BagBunker_Large_F";
-			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2668,6 +2670,7 @@ class Mission
 			};
 			id=167;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2792,7 +2795,6 @@ class Mission
 			};
 			id=174;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2911,7 +2913,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Blue Pearl Warehouse"",""+"",50,50,400,[""warehouse""],[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Blue Pearl Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="BluePearl_Industrial_Warehouse";
 				disableSimulation=1;
 			};
@@ -3350,7 +3352,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Comms Bravo Warehouse"",""+"",10,40,400,[""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Comms Bravo Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Comms_Bravo_Warehouse";
 				disableSimulation=1;
 			};
@@ -3474,7 +3476,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lami Warehouse"",""+"",10,50,400,[""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lami Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Lami_Warehouse";
 				disableSimulation=1;
 			};
@@ -4436,6 +4438,7 @@ class Mission
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=737;
 			type="Logic";
+			atlOffset=9.5367432e-007;
 		};
 		class Item125
 		{
@@ -6551,7 +6554,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""OuaOue  Warehouse"",""+"",10,50,400,[""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""OuaOue  Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Oua_Oue_Warehouse";
 				disableSimulation=1;
 			};
@@ -6637,7 +6640,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Rautake Warehouse"",""+"",10,50,200,[""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Rautake Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Rautake_Warehouse";
 				disableSimulation=1;
 			};
@@ -8345,6 +8348,7 @@ class Mission
 			};
 			id=1711;
 			type="Land_Fort_Watchtower";
+			atlOffset=1.1920929e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8640,6 +8644,7 @@ class Mission
 			};
 			id=1718;
 			type="Land_Fort_Watchtower";
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8936,6 +8941,7 @@ class Mission
 			};
 			id=1725;
 			type="Land_Fort_Watchtower";
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11426,6 +11432,7 @@ class Mission
 			};
 			id=1849;
 			type="Land_Ss_hangard";
+			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11578,6 +11585,7 @@ class Mission
 			};
 			id=1854;
 			type="Land_Ss_hangard";
+			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11730,6 +11738,7 @@ class Mission
 			};
 			id=1859;
 			type="Land_Ss_hangard";
+			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11882,6 +11891,7 @@ class Mission
 			};
 			id=1864;
 			type="Land_Ss_hangard";
+			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12034,6 +12044,7 @@ class Mission
 			};
 			id=1869;
 			type="Land_Ss_hangard";
+			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12166,6 +12177,7 @@ class Mission
 			};
 			id=1872;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-1.1920929e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12480,7 +12492,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7429.4956,7.4899998,8523.3877};
-				angles[]={-0,4.0029197,0};
+				angles[]={0,4.0029197,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG', ""Tanouka Plant""]];}";
 			id=1886;
@@ -12492,7 +12504,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7451.5107,7.4899998,8599.8564};
-				angles[]={-0,5.4873314,0};
+				angles[]={0,5.4873314,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG', ""Tanouka Plant""]];}";
 			id=1887;

@@ -10345,7 +10345,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Pita Warehouse"",""+"",10,40,400, [""warehouse""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Pita Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Pita_Warehouse";
 				disableSimulation=1;
 			};
@@ -10526,7 +10526,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Obregan Warehouse"",""+"",10,40,400, [""warehouse""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Obregan Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Obregan_Warehouse";
 				disableSimulation=1;
 			};

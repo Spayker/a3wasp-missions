@@ -6606,7 +6606,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Sofia Warehouse"",""+"",10,50,500, [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Sofia Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Sofia_Warehouse";
 				disableSimulation=1;
 			};
@@ -13011,7 +13011,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Charkia Warehouse"",""+"",10,40,400, [""warehouse""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Charkia Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Charkia_Warehouse";
 				disableSimulation=1;
 			};

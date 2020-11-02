@@ -211,7 +211,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Malden V59";
+		briefingName="Warfare In Malden V58";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -579,7 +579,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""LePort Warehouse"",""+"",10,40,300, [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""LePort Warehouse"",""+"",20,100,350, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="LePort_Warehouse";
 				disableSimulation=1;
 			};
@@ -1407,13 +1407,12 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Abandoned Warehouse"",""+"",10,40,450, [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Abandoned Warehouse"",""+"",20,100,350, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Abandoned_Warehouse";
 				disableSimulation=1;
 			};
 			id=155;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6637,13 +6636,12 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Airport Warehouse"",""+"",10,40,400, [""warehouse""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Airport Warehouse"",""+"",20,100,350, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Airport_Warehouse";
 				disableSimulation=1;
 			};
 			id=1086;
 			type="Land_BagBunker_Large_F";
-			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0

@@ -6343,7 +6343,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Prigorodki Warehouse"",""+"",10,50,400, [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Prigorodki Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Prigorodki_Warehouse";
 				disableSimulation=1;
 			};
@@ -13129,7 +13129,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Krasnostav Warehouse"",""+"",10,50,400, [""warehouse""],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Krasnostav Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Berezino_Warehouse";
 				disableSimulation=1;
 			};

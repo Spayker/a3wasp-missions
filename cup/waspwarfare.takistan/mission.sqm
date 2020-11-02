@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11590.552,267.43567,8553.9063};
-		dir[]={0.035353325,-0.72039253,0.69267821};
-		up[]={0.036720123,0.6935612,0.71946245};
-		aside[]={0.99870914,-6.468872e-008,-0.050972991};
+		pos[]={6172.6802,107.40544,11005.742};
+		dir[]={-0.0046793232,-0.47128424,0.881971};
+		up[]={-0.0025003816,0.88198024,0.47127834};
+		aside[]={0.99998677,-5.2568794e-010,0.0053054593};
 	};
 };
 binarizationWanted=0;
@@ -5128,8 +5128,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6145.6846,66.891434,10973.959};
-				angles[]={6.2816033,4.3633232,0.0015822123};
+				position[]={6147.251,66.900002,11019.809};
+				angles[]={-0,3.5824847,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=2878;
@@ -8298,8 +8298,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6132.8032,69.086769,10996.741};
-				angles[]={0,0.42140573,0.0032018756};
+				position[]={6150.3389,69.111801,11033.361};
+				angles[]={-0,0.42140573,0};
 			};
 			side="Empty";
 			flags=4;
@@ -10034,8 +10034,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6309.958,61.086418,11122.216};
-				angles[]={0.0095993113,2.1892536,0};
+				position[]={6217.9858,60.391922,11248.747};
+				angles[]={-0,5.2427654,6.2671909};
 			};
 			side="Empty";
 			flags=4;
@@ -10049,7 +10049,6 @@ class Mission
 			};
 			id=2985;
 			type="Land_BagBunker_Large_F";
-			atlOffset=-3.8146973e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10567,7 +10566,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Garmsar Base"",""+"",10,50,500, [""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Garmsar Base"",""+"",50,50,500, [""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Garmsar_Base";
 				disableSimulation=1;
 			};
@@ -10615,8 +10614,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6031.77,68.199486,10460.404};
-				angles[]={6.2671809,1.912619,0.0063879048};
+				position[]={6031.2339,67.795311,10416.023};
+				angles[]={6.2816033,0.95417476,0.0015822123};
 			};
 			side="Empty";
 			flags=4;
@@ -10690,7 +10689,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Jilavur Base"",""+"",10,50,500, [""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Jilavur Base"",""+"",50,50,500, [""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Jilavur_Base";
 				disableSimulation=1;
 			};
@@ -10800,7 +10799,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Sagram Warehouse"",""+"",10,50,500, [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Sagram Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Sagram_Warehouse";
 				disableSimulation=1;
 			};
@@ -10934,7 +10933,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Loy Manara Warehouse"",""+"",10,50,500, [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Loy Manara Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Loy_Manara_Warehouse";
 				disableSimulation=1;
 			};
@@ -11001,7 +11000,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lalezar Warehouse"",""+"",10,50,500, [""warehouse""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lalezar Warehouse"",""+"",20,100,400, [""warehouse""], [""rearmStation""],[[2, ""heavy""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Lalezar_Warehouse";
 				disableSimulation=1;
 			};
@@ -11514,8 +11513,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6049.6211,67.464516,10464.882};
-				angles[]={6.2639866,2.9513648,0.0032018756};
+				position[]={6037.4741,67.3461,10460.393};
+				angles[]={6.2671871,1.9422324,0.006394445};
 			};
 			id=3182;
 			type="LocationRespawnPoint_F";
@@ -11525,8 +11524,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6053.481,67.130119,10439.081};
-				angles[]={6.2767911,2.5853984,0};
+				position[]={6043.6006,67.027451,10431.06};
+				angles[]={6.2735858,0.89264125,0.004796607};
 			};
 			id=3183;
 			type="LocationRespawnPoint_F";
@@ -11609,7 +11608,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Rasman Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Rasman Air Base"",""+"",50,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Rasman_Air_Base";
 				disableSimulation=1;
 			};
@@ -11772,7 +11771,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{nullReturn = [this,""Loy Manara Air Base"",""+"",10,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Loy Manara Air Base"",""+"",50,50,500, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
 				name="Loy_Manara_Air_Base";
 				disableSimulation=1;
 			};
