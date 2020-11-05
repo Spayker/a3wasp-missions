@@ -338,8 +338,8 @@ class Params {
 	};
 	class WF_C_TOWNS_DEFENDER_AIM_SKILL {
 		title = "$STR_WF_PARAMETER_Defender_AIM_SKILL";
-		values[] = {1,2,3,4,5,6,7,8,9,10};
-		texts[] = {"10%","20%","30%","40%","50%","60%","70%","80%","90%","100%"};
+		values[] = {1,2,3,4,5,6,7,8};
+		texts[] = {"10%","20%","30%","40%","50%","60%","70%","80%"};
 		default = 6;
 	};
 	class WF_C_UNITS_FACTION_GUER {
