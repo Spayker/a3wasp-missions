@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1534;
+		nextID=1536;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10484.183,289.17715,9262.832};
-		dir[]={0.16170043,-0.70063061,0.69496298};
-		up[]={0.15877812,0.71352392,0.68240339};
-		aside[]={0.9739852,-3.4349796e-008,-0.22662191};
+		pos[]={7912.2603,50.42244,9056.2891};
+		dir[]={-0.1155639,-0.2919766,0.9494192};
+		up[]={-0.035279252,0.95642424,0.2898379};
+		aside[]={0.9926731,-1.0040822e-009,0.12082887};
 	};
 };
 binarizationWanted=0;
@@ -247,7 +247,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=384;
+		items=386;
 		class Item0
 		{
 			dataType="Marker";
@@ -3591,7 +3591,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Sissach"",""+"",10,80,600] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Sissach"",""+"",20,80,350] spawn WFCO_fnc_initTown;}";
 				name="Sissach";
 				disableSimulation=1;
 			};
@@ -5369,8 +5369,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13001.274,90.205658,7174.3398};
-				angles[]={0.036981151,4.1887903,0.013001583};
+				position[]={13014.646,91.164909,7139.3076};
+				angles[]={0.015998369,5.8961191,0.058929931};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=1234;
@@ -5381,15 +5381,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13057.061,95.917465,6950.3931};
-				angles[]={0.0029845131,1.7301099,0.0069987699};
+				position[]={13056.422,95.906776,6952.4678};
+				angles[]={0.002990101,1.6441516,0.0069996584};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Farnen"",""+"",10,50,600] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Farnen"",""+"",10,50,350] spawn WFCO_fnc_initTown;}";
 				name="Farnen";
 				disableSimulation=1;
 			};
@@ -5424,15 +5424,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13034.571,93.503189,7156.9189};
-				angles[]={6.2551947,5.9025235,0.062915333};
+				position[]={13020.8,93.969879,7121.9165};
+				angles[]={0.01499443,5.9025288,0.0089968694};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""WF_CAMP_TOWN"", ""Giswil""];}";
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Farnen""];}";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
 			};
@@ -6631,7 +6631,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Horw"",""+"",20,60,340] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Horw"",""+"",20,60,400] spawn WFCO_fnc_initTown;}";
 				name="Horw";
 				disableSimulation=1;
 			};
@@ -7002,7 +7002,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lausen"",""+"",20,60,200] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lausen"",""+"",20,60,300] spawn WFCO_fnc_initTown;}";
 				name="Lausen";
 				disableSimulation=1;
 			};
@@ -7360,8 +7360,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8628.8115,63.815197,14333.656};
-				angles[]={6.2362185,1.8636103,0.035988688};
+				position[]={8685.502,58.352127,14352.479};
+				angles[]={6.2472043,3.5807974,6.0232215};
 			};
 			side="Empty";
 			flags=4;
@@ -7609,7 +7609,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lenzburg"",""+"",20,120,600] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lenzburg"",""+"",30,120,600,['fuelStation']] spawn WFCO_fnc_initTown;}";
 				name="Lenzburg";
 				disableSimulation=1;
 			};
@@ -8194,7 +8194,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Huttwil"",""+"",10,80,600] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Huttwil"",""+"",20,80,350] spawn WFCO_fnc_initTown;}";
 				name="Huttwil";
 				disableSimulation=1;
 			};
@@ -8424,7 +8424,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Bubendorf"",""+"",10,40,600] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Bubendorf"",""+"",10,40,350] spawn WFCO_fnc_initTown;}";
 				name="Bubendorf";
 				disableSimulation=1;
 			};
@@ -8472,14 +8472,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4180.9019,22.520176,14471.13};
-				angles[]={0.16740769,4.0231948,0.0069996584};
+				angles[]={0.16741198,4.0231934,0.0069987699};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""WF_CAMP_TOWN"", ""Huttwil""];}";
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Bubendorf""];}";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
 			};
@@ -10126,15 +10126,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6236.6465,18.368137,8950.2979};
-				angles[]={6.2671871,2.1291132,0.03798008};
+				position[]={6236.646,18.368114,8950.2979};
+				angles[]={6.2671809,2.1291096,0.037978366};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""WF_CAMP_TOWN"", ""Eggwil""];}";
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Signau""];}";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
 			};
@@ -10207,21 +10207,20 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5802.4287,20.682796,8796.0068};
-				angles[]={0.016995618,0.88436311,0.010000871};
+				position[]={5802.4292,20.682804,8796.0068};
+				angles[]={0.016999505,0.88435829,0.010000736};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""WF_CAMP_TOWN"", ""Eggwil""];}";
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Signau""];}";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
 			};
 			id=1378;
 			type="Land_Fort_Watchtower";
-			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11571,7 +11570,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Wolhusenf"",""+"",20,60,350] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Wolhusen"",""+"",20,60,350] spawn WFCO_fnc_initTown;}";
 				name="Wolhusen";
 				disableSimulation=1;
 			};
@@ -11930,8 +11929,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={8102.7383,37.297478,9306.6367};
-				angles[]={0.010000871,4.1887903,0.030986907};
+				position[]={7891.0322,26.503887,9116.7207};
+				angles[]={6.278194,2.6258788,6.2741885};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=1434;
@@ -11942,8 +11941,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8097.0649,39.603359,9288.6084};
-				angles[]={0.089753047,4.976615,0.051951028};
+				position[]={7886.7993,28.415535,9132.7031};
+				angles[]={0.046963163,5.9921007,0.0090034921};
 			};
 			side="Empty";
 			flags=4;
@@ -13332,7 +13331,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Muenchenstein"",""+"",20,80,300, [], ['fuelStation']] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Muenchenstein"",""+"",20,80,350, [], ['fuelStation']] spawn WFCO_fnc_initTown;}";
 				name="Muenchenstein";
 				disableSimulation=1;
 			};
@@ -14673,6 +14672,99 @@ class Mission
 			init="call{this setVariable ['wf_defense_kind', ['MG','Emmen']];}";
 			id=1533;
 			type="Logic";
+		};
+		class Item384
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={13051.101,108.30398,6735.3442};
+				angles[]={0.028991109,3.1256735,0.23175232};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			id=1534;
+			type="Logic";
+		};
+		class Item385
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13035.975,109.48183,6757.9072};
+				angles[]={0.016004669,3.2177238,0.10461503};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Farnen""];}";
+				disableSimulation=1;
+				ignoreByDynSimulGrid=1;
+			};
+			id=1535;
+			type="Land_Fort_Watchtower";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="pitch";
+					expression="_this setpitch _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.89999998;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="enableStamina";
+					expression="_this enablestamina _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=3;
+			};
 		};
 	};
 };
