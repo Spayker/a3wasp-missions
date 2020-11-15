@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7912.2603,50.42244,9056.2891};
-		dir[]={-0.1155639,-0.2919766,0.9494192};
-		up[]={-0.035279252,0.95642424,0.2898379};
-		aside[]={0.9926731,-1.0040822e-009,0.12082887};
+		pos[]={3022.3606,189.36046,11725.278};
+		dir[]={0.069606163,-0.7009511,0.70981061};
+		up[]={0.068409368,0.71321118,0.69760561};
+		aside[]={0.99523067,4.019239e-008,-0.097595468};
 	};
 };
 binarizationWanted=0;
@@ -3480,7 +3480,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9258.7998,84.060486,5561.002};
-				angles[]={6.1983986,4.1887903,0.0099949092};
+				angles[]={6.1983972,4.1887903,0.010000736};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=737;
@@ -3678,8 +3678,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Staroye"",""+"",20,80,350] spawn WFCO_fnc_initTown;}";
-				name="Staroye";
+				init="call{nullReturn = [this,""Schangen"",""+"",20,80,350] spawn WFCO_fnc_initTown;}";
+				name="Schangen";
 				disableSimulation=1;
 			};
 			id=847;
@@ -4223,15 +4223,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8966.3379,77.733147,5347.4307};
-				angles[]={0.037976943,0.62891853,0.033983696};
+				position[]={8966.3379,77.733147,5347.4312};
+				angles[]={0.037978366,0.62891197,0.033981562};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""WF_CAMP_TOWN"", ""Staroye""];}";
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Schangen""];}";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
 			};
@@ -4305,14 +4305,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9241.8418,84.650795,5545.0059};
-				angles[]={6.2502007,0.87380421,0.073857926};
+				angles[]={6.2501984,0.87379909,0.073862329};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""WF_CAMP_TOWN"", ""Staroye""];}";
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Schangen""];}";
 				disableSimulation=1;
 				ignoreByDynSimulGrid=1;
 			};
@@ -4984,10 +4984,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18090.887,142.82706,2039.502};
+				position[]={18090.887,140.84006,2039.502};
 				angles[]={0,5.4200501,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="call{nullReturn = [this,""South Airstrip"",""+"",50,50,300, [""airBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
@@ -4996,7 +4997,7 @@ class Mission
 			};
 			id=1219;
 			type="Land_Ss_hangard";
-			atlOffset=1.9869843;
+			atlOffset=-1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14704,6 +14705,7 @@ class Mission
 			};
 			id=1535;
 			type="Land_Fort_Watchtower";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
