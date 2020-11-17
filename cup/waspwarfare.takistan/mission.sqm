@@ -116,6 +116,7 @@ randomSeed=13539695;
 class ScenarioData
 {
 	author="WASP community";
+	saving=0;
 	disabledAI=1;
 	class Header
 	{
@@ -155,6 +156,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="ReviveUnconsciousStateMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -168,28 +188,48 @@ class CustomAttributes
 							"ARRAY"
 						};
 					};
-					class value
-					{
-						items=1;
-						class Item0
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="None";
-							};
-						};
-					};
 				};
 			};
 		};
-		nAttributes=1;
+		class Attribute2
+		{
+			property="ReviveMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute3
+		{
+			property="ReviveRequiredItems";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=2;
+				};
+			};
+		};
+		nAttributes=4;
 	};
 	class Category2
 	{
@@ -5129,7 +5169,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6147.251,66.900002,11019.809};
-				angles[]={-0,3.5824847,0};
+				angles[]={0,3.5824847,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=2878;
@@ -8299,7 +8339,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6150.3389,69.111801,11033.361};
-				angles[]={-0,0.42140573,0};
+				angles[]={0,0.42140573,0};
 			};
 			side="Empty";
 			flags=4;
@@ -10035,7 +10075,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6217.9858,60.391922,11248.747};
-				angles[]={-0,5.2427654,6.2671909};
+				angles[]={0,5.2427654,6.2671909};
 			};
 			side="Empty";
 			flags=4;
