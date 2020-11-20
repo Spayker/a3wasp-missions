@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=1048;
+		nextID=1057;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4579.3711,195.03102,15168.128};
-		dir[]={-0.023408011,-0.64769602,0.76154578};
-		up[]={-0.019899169,0.76189739,0.64739043};
-		aside[]={0.99953169,2.9012426e-008,0.03072303};
+		pos[]={9604.624,90.349869,10975.04};
+		dir[]={-0.061785035,-0.64657426,0.76034909};
+		up[]={-0.052367374,0.7628504,0.64445168};
+		aside[]={0.99671781,1.7025741e-009,0.080992147};
 	};
 };
 binarizationWanted=0;
@@ -298,7 +298,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=389;
+		items=397;
 		class Item0
 		{
 			dataType="Marker";
@@ -5058,7 +5058,7 @@ class Mission
 				position[]={1917,0.17777252,54.747002};
 			};
 			name="WF_Logic";
-			init="call{this setVariable [""totalTowns"",59];  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
+			init="call{this setVariable [""totalTowns"",61];  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
 			id=224;
 			type="Logic";
 			atlOffset=72.139008;
@@ -5413,11 +5413,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9623.75,11.968388,11063.642};
+				position[]={9121.2109,106.81484,10723.14};
 			};
 			id=486;
 			type="LocationArea_F";
-			atlOffset=1.9229946;
+			atlOffset=1.9229965;
 		};
 		class Item179
 		{
@@ -11451,6 +11451,255 @@ class Mission
 			};
 			init="this setVariable ['wf_defense_kind', ['AA']];";
 			id=1047;
+			type="Logic";
+		};
+		class Item389
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11601.215,226.84419,9132.3193};
+				angles[]={0.13634512,5.3051901,0.1031315};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Corinto"",""+"",10,30,550] spawn WFCO_fnc_initTown;}";
+				name="Corinto";
+				disableSimulation=1;
+			};
+			id=1048;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item390
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11600.076,217.66949,9246.4727};
+				angles[]={0.17373008,2.9105284,0.11203269};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Corinto""];}";
+				disableSimulation=1;
+			};
+			id=1049;
+			type="Land_Fort_Watchtower";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item391
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11592.148,211.4678,9265.8848};
+				angles[]={0.16498597,5.362402,0.079726636};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG',""Corinto""]];}";
+			id=1051;
+			type="Logic";
+		};
+		class Item392
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9744.7676,15.339145,11026.78};
+				angles[]={0.091996305,2.6650479,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Rashidah"",""+"",10,30,550] spawn WFCO_fnc_initTown;}";
+				name="Rashidah";
+				disableSimulation=1;
+			};
+			id=1052;
+			type="Land_BagBunker_Large_F";
+			atlOffset=9.5367432e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item393
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9594.7246,19.174305,11040.64};
+				angles[]={0.21919098,1.1878676,6.2141056};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Rashidah""];}";
+				disableSimulation=1;
+			};
+			id=1053;
+			type="Land_Fort_Watchtower";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item394
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9590.5674,18.374868,11018.283};
+				angles[]={0.019844392,4.3496571,6.2641788};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG',""Rashidah""]];}";
+			id=1054;
+			type="Logic";
+		};
+		class Item395
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9859.0605,17.667175,10993.162};
+				angles[]={0.042446405,1.7891022,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Rashidah""];}";
+				disableSimulation=1;
+			};
+			id=1055;
+			type="Land_Fort_Watchtower";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item396
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9866.1543,14.790163,10972.153};
+				angles[]={6.2362533,1.8621093,6.282208};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG',""Rashidah""]];}";
+			id=1056;
 			type="Logic";
 		};
 	};
