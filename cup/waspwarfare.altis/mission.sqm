@@ -8685,7 +8685,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Sirta""];}}";
+				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Syrta""];}}";
 				disableSimulation=1;
 			};
 			id=1163;
@@ -8727,7 +8727,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Sirta""];}}";
+				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Syrta""];}}";
 				disableSimulation=1;
 			};
 			id=1164;
