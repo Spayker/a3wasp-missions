@@ -6414,19 +6414,20 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3943.4109,68.684372,4699.6855};
-				angles[]={0.0072011296,1.0915732,6.2527947};
+				position[]={3943.4109,68.684372,4699.686};
+				angles[]={0.0072082095,1.0915812,6.252799};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""La Riviere""];}}";
+				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Corton""];}}";
 				disableSimulation=1;
 			};
 			id=1075;
 			type="Land_Fort_Watchtower";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
