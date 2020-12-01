@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1340;
+		nextID=1345;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={19027.012,157.3483,14336.965};
-		dir[]={-0.028757049,-0.6840319,0.72888798};
-		up[]={-0.026966335,0.72945124,0.68350106};
-		aside[]={0.99922508,7.7761797e-009,0.039422672};
+		pos[]={7482.3667,182.15846,15334.65};
+		dir[]={-0.23524916,-0.66383666,0.70992512};
+		up[]={-0.2088106,0.74787563,0.63014221};
+		aside[]={0.94924635,-5.9386366e-008,0.31455418};
 	};
 };
 binarizationWanted=0;
@@ -276,7 +276,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=500;
+		items=505;
 		class Item0
 		{
 			dataType="Logic";
@@ -2873,7 +2873,7 @@ class Mission
 				position[]={1052.421,133.82901,781.20801};
 			};
 			name="WF_Logic";
-			init="call{this setVariable [""totalTowns"",76];this enableSimulation false;  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
+			init="call{this setVariable [""totalTowns"",77];this enableSimulation false;  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
 			id=224;
 			type="Logic";
 			atlOffset=319.79901;
@@ -10177,8 +10177,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Kalataki"",""+"",10,50,550] spawn WFCO_fnc_initTown;}";
-				name="Kalataki";
+				init="call{nullReturn = [this,""Katalaki"",""+"",10,50,550] spawn WFCO_fnc_initTown;}";
+				name="Katalaki";
 				disableSimulation=1;
 			};
 			id=1200;
@@ -10220,7 +10220,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Kalataki""];}}";
+				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Katalaki""];}}";
 				disableSimulation=1;
 			};
 			id=1201;
@@ -10262,7 +10262,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Kalataki""];}}";
+				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Katalaki""];}}";
 				disableSimulation=1;
 			};
 			id=1202;
@@ -10297,7 +10297,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11805.445,12.54292,13834.406};
-				angles[]={0.0093286335,5.1487212,6.2698536};
+				angles[]={0.0093200579,5.1487212,6.2698507};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
 			id=1203;
@@ -13429,6 +13429,157 @@ class Mission
 			id=1339;
 			type="Logic";
 			atlOffset=1.5258789e-005;
+		};
+		class Item500
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7383.5488,56.25256,15405.087};
+				angles[]={0.0079936078,0.18469073,0.031991884};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Topolia"",""+"",10,40,450,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				name="Topolia";
+				disableSimulation=1;
+			};
+			id=1340;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item501
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={7290.1909,54.676189,15500.896};
+				angles[]={6.2086601,5.5042272,0.08248426};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			id=1341;
+			type="Logic";
+		};
+		class Item502
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7306.1421,56.034729,15484.097};
+				angles[]={6.1967392,2.2192385,0.12861331};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Topolia""];}}";
+				disableSimulation=1;
+			};
+			id=1342;
+			type="Land_Fort_Watchtower";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item503
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={7498.2178,63.997734,15417.976};
+				angles[]={6.2378831,1.4308974,0.10098849};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			id=1343;
+			type="Logic";
+		};
+		class Item504
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7485.5503,65.990845,15433.18};
+				angles[]={6.2166171,4.5481048,0.073202357};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Topolia""];}}";
+				disableSimulation=1;
+			};
+			id=1344;
+			type="Land_Fort_Watchtower";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
