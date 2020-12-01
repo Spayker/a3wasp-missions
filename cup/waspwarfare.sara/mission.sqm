@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={9604.624,90.349869,10975.04};
-		dir[]={-0.061785035,-0.64657426,0.76034909};
-		up[]={-0.052367374,0.7628504,0.64445168};
-		aside[]={0.99671781,1.7025741e-009,0.080992147};
+		pos[]={6405.7852,116.78605,7368.5596};
+		dir[]={0.030478934,-0.77908182,0.62619025};
+		up[]={0.037875809,0.62692308,0.77816123};
+		aside[]={0.99882281,-1.5860132e-007,-0.048615932};
 	};
 };
 binarizationWanted=0;
@@ -569,7 +569,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""North Corazol"",""+"",10,40,400,[],[""repairStation""],[[2, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""North Corazol"",""+"",10,40,400,[],[""repairStation""],[[1, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
 				name="North_Corazol";
 				disableSimulation=1;
 			};
@@ -10497,7 +10497,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Banango South Plant"",""+"",10,40,400, [""plant""], [""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Banango South Plant"",""+"",40,40,400, [""plant""], [""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Banango_South_Plant";
 				disableSimulation=1;
 			};
@@ -10635,7 +10635,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Corazol North Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Corazol North Port"",""+"",10,40,400, [""port""], [], [[1, ""medium""] , [1, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Corazol_North_Port";
 				disableSimulation=1;
 			};
@@ -10691,7 +10691,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Corazol South Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Corazol South Port"",""+"",10,40,400, [""port""], [], [[1, ""medium""] , [1, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Corazol_South_Port";
 				disableSimulation=1;
 			};
@@ -10747,13 +10747,12 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""South Corazol"",""+"",10,40,400,[],[], [[2, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""South Corazol"",""+"",10,40,400,[],[], [[1, ""heavy""] , [2, ""heavy""]]] spawn WFCO_fnc_initTown;}";
 				name="South_Corazol";
 				disableSimulation=1;
 			};
 			id=1016;
 			type="Land_BagBunker_Large_F";
-			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11666,6 +11665,7 @@ class Mission
 			};
 			id=1055;
 			type="Land_Fort_Watchtower";
+			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
