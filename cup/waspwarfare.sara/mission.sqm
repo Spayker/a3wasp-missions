@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4952.3804,109.37074,15745.561};
-		dir[]={0.099953607,-0.66127694,0.74346536};
-		up[]={0.088111505,0.7501384,0.65538555};
-		aside[]={0.99109197,-1.1619704e-007,-0.13324453};
+		pos[]={12439.629,261.95309,14753.904};
+		dir[]={0.029024603,-0.52791762,0.84880084};
+		up[]={0.018041536,0.84929448,0.52761024};
+		aside[]={0.99941623,1.3133103e-009,-0.034174837};
 	};
 };
 binarizationWanted=0;
@@ -2957,7 +2957,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Eponia"",""+"",30,120,800] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Eponia"",""+"",30,120,500] spawn WFCO_fnc_initTown;}";
 				name="Eponia";
 				disableSimulation=1;
 			};
@@ -3034,8 +3034,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12413.823,188.03954,14828.695};
-				angles[]={0,2.2514746,0};
+				position[]={12455.685,187.67944,14841.968};
+				angles[]={0.040478598,3.8691413,0.017997233};
 			};
 			side="Empty";
 			flags=4;
@@ -3047,7 +3047,6 @@ class Mission
 			};
 			id=128;
 			type="Land_Fort_Watchtower";
-			atlOffset=-1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3077,8 +3076,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={12434.121,185.71254,14824.769};
-				angles[]={0.022094838,1.7453293,6.281002};
+				position[]={12435.579,184.83795,14855.303};
+				angles[]={0.040477127,3.7447758,6.2396126};
 			};
 			init="this setVariable ['wf_defense_kind', ['AA']];";
 			id=129;
@@ -3121,7 +3120,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Pasedas"",""+"",20,80,700,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Pasedas"",""+"",20,80,500,[],[""fuelStation"", ""repairStation""]] spawn WFCO_fnc_initTown;}";
 				name="Pasedas";
 				disableSimulation=1;
 			};
@@ -9035,7 +9034,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Tandag"",""+"",10,40,700] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Tandag"",""+"",10,40,400] spawn WFCO_fnc_initTown;}";
 				name="Tandag";
 				disableSimulation=1;
 			};
