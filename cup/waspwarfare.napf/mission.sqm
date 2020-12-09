@@ -159,7 +159,7 @@ class CustomAttributes
 							"SCALAR"
 						};
 					};
-					value=0;
+					value=1;
 				};
 			};
 		};
@@ -196,7 +196,7 @@ class CustomAttributes
 							"SCALAR"
 						};
 					};
-					value=0;
+					value=1;
 				};
 			};
 		};
@@ -215,7 +215,7 @@ class CustomAttributes
 							"SCALAR"
 						};
 					};
-					value=0;
+					value=2;
 				};
 			};
 		};
@@ -7650,7 +7650,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Lenzburg"",""+"",30,120,600,[],['fuelStation']] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Lenzburg"",""+"",30,120,600,['fuelStation']] spawn WFCO_fnc_initTown;}";
 				name="Lenzburg";
 				disableSimulation=1;
 			};

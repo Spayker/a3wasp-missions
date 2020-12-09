@@ -178,7 +178,7 @@ class CustomAttributes
 							"SCALAR"
 						};
 					};
-					value=0;
+					value=1;
 				};
 			};
 		};
@@ -197,7 +197,7 @@ class CustomAttributes
 							"SCALAR"
 						};
 					};
-					value=0;
+					value=2;
 				};
 			};
 		};
@@ -251,7 +251,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Malden V59";
+		briefingName="Warfare In Malden V58";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -732,7 +732,7 @@ class Mission
 				position[]={8108.9189,56.028976,3305.127};
 				angles[]={5.8285441,6.1959186,6.2767797};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""LePort""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port""]];}";
 			id=59;
 			type="Logic";
 			atlOffset=3.8146973e-006;
@@ -2025,7 +2025,7 @@ class Mission
 				position[]={8267.8838,34.496258,3338.2537};
 				angles[]={6.0727477,0.22364186,0.039977662};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG', ""LePort""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Le Port""]];}";
 			id=831;
 			type="Logic";
 		};
@@ -4817,7 +4817,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""LePort""];}}";
+				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Le Port""];}}";
 				disableSimulation=1;
 			};
 			id=1011;
@@ -5833,7 +5833,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""LePort""];}}";
+				init="call{call{this setVariable [""WF_CAMP_TOWN"", ""Le Port""];}}";
 				disableSimulation=1;
 			};
 			id=1043;
@@ -6515,7 +6515,7 @@ class Mission
 				position[]={7823.5879,6.27,3110.4829};
 				angles[]={0,2.7242844,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""LePort Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
 			id=1078;
 			type="Logic";
 		};
@@ -6527,7 +6527,7 @@ class Mission
 				position[]={7799.2407,7.2425132,3254.3135};
 				angles[]={6.0213385,5.4551849,0.26184687};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""LePort Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
 			id=1079;
 			type="Logic";
 		};
@@ -6582,7 +6582,7 @@ class Mission
 				position[]={8433.1338,4.4400001,3755.679};
 				angles[]={0,3.0945482,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""LePort Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
 			id=1081;
 			type="Logic";
 		};
@@ -6594,7 +6594,7 @@ class Mission
 				position[]={8332.6797,13.589025,3794.8608};
 				angles[]={6.1914434,5.7533226,6.0213385};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""LePort Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
 			id=1082;
 			type="Logic";
 		};
@@ -6649,7 +6649,7 @@ class Mission
 				position[]={3660.4041,1.6991535,3200.9199};
 				angles[]={6.0243182,3.0945559,0.20889845};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""LePort Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
 			id=1084;
 			type="Logic";
 		};
@@ -6661,7 +6661,7 @@ class Mission
 				position[]={3535.988,2.1844873,3265.2029};
 				angles[]={0.0010297443,5.7533207,6.2811432};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""LePort Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
 			id=1085;
 			type="Logic";
 		};
