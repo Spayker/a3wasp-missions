@@ -103,6 +103,8 @@ class AddonsMetaData
 };
 class DynamicSimulation
 {
+	enable=0;
+	saturateByObjectDistance=0;
 	class EnableRadiuses
 	{
 		Prop=2000;
