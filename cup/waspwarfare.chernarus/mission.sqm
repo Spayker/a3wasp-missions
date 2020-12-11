@@ -477,7 +477,7 @@ class Mission
 				position[]={10251.021,12.912091,2215.9451};
 				angles[]={6.0824547,2.9670596,6.2512283};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Elektrozavodsk""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Elektrozavodsk""]];}";
 			id=60;
 			type="Logic";
 			atlOffset=0.001999855;
@@ -4883,7 +4883,7 @@ class Mission
 				position[]={6519.9941,5.98,2804.425};
 				angles[]={0,0.63535219,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Cherno Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Cherno Plant""]];}";
 			id=762;
 			type="Logic";
 		};
@@ -13209,7 +13209,7 @@ class Mission
 				position[]={12830.143,5.98,9733.5039};
 				angles[]={0,4.1887903,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Berezino Warehouse""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Berezino Warehouse""]];}";
 			id=1071;
 			type="Logic";
 		};
@@ -14090,7 +14090,7 @@ class Mission
 				position[]={10402.659,3.9759617,1747.5909};
 				angles[]={0.13517575,5.8875017,6.1480098};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Electro Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Electro Port""]];}";
 			id=1131;
 			type="Logic";
 		};
@@ -14102,7 +14102,7 @@ class Mission
 				position[]={7251.4829,4.1230183,2292.0061};
 				angles[]={0,6.1965475,1.0766064};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Cherno Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Cherno Port""]];}";
 			id=1132;
 			type="Logic";
 		};
@@ -14157,7 +14157,7 @@ class Mission
 				position[]={13108.352,5.9899998,10345.349};
 				angles[]={0,4.1801682,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Berezino Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Berezino Port""]];}";
 			id=1134;
 			type="Logic";
 		};

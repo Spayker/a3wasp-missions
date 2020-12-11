@@ -963,7 +963,7 @@ class Mission
 				position[]={17079.051,14.507889,12689.474};
 				angles[]={6.2805147,6.1959186,0.025324726};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Pyrgos""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Pyrgos""]];}";
 			id=59;
 			type="Logic";
 		};
@@ -975,7 +975,7 @@ class Mission
 				position[]={16820.83,22.56279,12712.61};
 				angles[]={0.045308746,2.9670596,6.2725215};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Pyrgos""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Pyrgos""]];}";
 			id=60;
 			type="Logic";
 		};
@@ -1966,7 +1966,7 @@ class Mission
 				position[]={3185.6541,39.447449,13059.87};
 				angles[]={5.9650469,1.3962634,5.7839336};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Kavala""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Kavala""]];}";
 			id=140;
 			type="Logic";
 			atlOffset=3.8146973e-006;
@@ -1979,7 +1979,7 @@ class Mission
 				position[]={3664.1741,10.726878,13229.489};
 				angles[]={6.2765183,5.506671,0.035988688};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Kavala""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Kavala""]];}";
 			id=142;
 			type="Logic";
 			atlOffset=9.5367432e-007;
@@ -2282,7 +2282,7 @@ class Mission
 				position[]={12402.938,27.168884,15459.713};
 				angles[]={6.2725215,3.8397243,0.011990411};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Lakka""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Lakka""]];}";
 			id=172;
 			type="Logic";
 			atlOffset=1.9073486e-006;
@@ -2295,7 +2295,7 @@ class Mission
 				position[]={12519.817,18.133446,15898.634};
 				angles[]={6.2791882,1.3962634,6.2525201};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Lakka""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Lakka""]];}";
 			id=173;
 			type="Logic";
 		};
@@ -2351,7 +2351,7 @@ class Mission
 				position[]={17977.539,47.799248,15367.032};
 				angles[]={5.9905109,4.8869219,6.2818413};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Charkia""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Charkia""]];}";
 			id=177;
 			type="Logic";
 		};
@@ -2363,7 +2363,7 @@ class Mission
 				position[]={18363.707,28.061232,15272.105};
 				angles[]={6.251193,6.1086521,0.02799508};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Charkia""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Charkia""]];}";
 			id=178;
 			type="Logic";
 		};
@@ -2375,7 +2375,7 @@ class Mission
 				position[]={17836.434,19.752087,15025.294};
 				angles[]={6.2551899,3.4906585,0.0026703537};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Charkia""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Charkia""]];}";
 			id=179;
 			type="Logic";
 		};
@@ -2566,7 +2566,7 @@ class Mission
 				position[]={13843.813,19.752527,18653.633};
 				angles[]={6.2711902,4.5481839,0.0093286335};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Athira""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Athira""]];}";
 			id=194;
 			type="Logic";
 			atlOffset=-7.6293945e-006;
@@ -5638,7 +5638,7 @@ class Mission
 				position[]={3579.1509,11.686393,12772.979};
 				angles[]={6.2805324,1.243582,0.099675752};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Kavala""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Kavala""]];}";
 			id=920;
 			type="Logic";
 		};
@@ -5981,7 +5981,7 @@ class Mission
 				position[]={16806.57,12.869722,12361.82};
 				angles[]={6.2805147,6.1959186,0.025324726};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Pyrgos""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Pyrgos""]];}";
 			id=949;
 			type="Logic";
 			atlOffset=0.040000916;
@@ -11212,7 +11212,7 @@ class Mission
 				position[]={14364.348,3.128247,13046.711};
 				angles[]={6.1663861,2.2173944,6.129735};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Sagonisi Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Sagonisi Port""]];}";
 			id=1237;
 			type="Logic";
 		};
@@ -12823,7 +12823,7 @@ class Mission
 				position[]={3990.8015,24.697559,12596.522};
 				angles[]={0.019999012,6.0263152,0.097027972};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Cherno Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Cherno Port""]];}";
 			id=1315;
 			type="Logic";
 		};
@@ -12878,7 +12878,7 @@ class Mission
 				position[]={3974.959,18.085884,13586.468};
 				angles[]={0.02799508,0.70012134,0.073199101};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Aggelochori""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Aggelochori""]];}";
 			id=1317;
 			type="Logic";
 			atlOffset=-1.9073486e-006;
@@ -12935,7 +12935,7 @@ class Mission
 				position[]={3643.7173,8.8216095,13906.475};
 				angles[]={6.2578578,0.084590666,0.074528553};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Aggelochori""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Aggelochori""]];}";
 			id=1319;
 			type="Logic";
 		};
@@ -13034,7 +13034,7 @@ class Mission
 				position[]={17504.623,13.252785,13219.04};
 				angles[]={0.0093200579,0.6973114,6.2818413};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Pyrgos Base""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Pyrgos Base""]];}";
 			id=1322;
 			type="Logic";
 			atlOffset=9.5367432e-007;
@@ -13090,7 +13090,7 @@ class Mission
 				position[]={18390.258,49.632881,15568.173};
 				angles[]={0.0093200579,0.6973114,6.2818413};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Charkia Warehouse""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Charkia Warehouse""]];}";
 			id=1324;
 			type="Logic";
 		};
@@ -13145,7 +13145,7 @@ class Mission
 				position[]={14247.975,35.142662,18839.621};
 				angles[]={6.2578607,3.8922064,0.018657569};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Athira Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Athira Plant""]];}";
 			id=1326;
 			type="Logic";
 			atlOffset=3.8146973e-006;
@@ -13158,7 +13158,7 @@ class Mission
 				position[]={14416.018,38.246475,18958.1};
 				angles[]={6.2791886,0.94830495,0.0039967569};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Athira Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Athira Plant""]];}";
 			id=1327;
 			type="Logic";
 		};
@@ -13213,7 +13213,7 @@ class Mission
 				position[]={12529.715,33.48,16501.707};
 				angles[]={0,5.5618057,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Lakka Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Lakka Plant""]];}";
 			id=1329;
 			type="Logic";
 		};
@@ -13225,7 +13225,7 @@ class Mission
 				position[]={12713.113,47.400616,16450.814};
 				angles[]={5.986846,1.1128395,0.17421877};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Lakka Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Lakka Plant""]];}";
 			id=1330;
 			type="Logic";
 		};
@@ -13280,7 +13280,7 @@ class Mission
 				position[]={16482.471,4.363368,12646.542};
 				angles[]={6.2658563,5.6409445,0.0013372133};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Pyrgos Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Pyrgos Port""]];}";
 			id=1332;
 			type="Logic";
 		};

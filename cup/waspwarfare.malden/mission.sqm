@@ -500,7 +500,7 @@ class Mission
 				position[]={3690.814,21.02095,3350.1169};
 				angles[]={6.1268735,4.712389,0.039985489};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""La Riviere""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""La Riviere""]];}";
 			id=21;
 			type="Logic";
 		};
@@ -512,7 +512,7 @@ class Mission
 				position[]={3996.6169,34.086166,3229.137};
 				angles[]={0.091734506,1.2217305,0.051155601};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""La Riviere""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""La Riviere""]];}";
 			id=22;
 			type="Logic";
 		};
@@ -733,7 +733,7 @@ class Mission
 				position[]={8108.9189,56.028976,3305.127};
 				angles[]={5.8285441,6.1959186,6.2767797};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Le Port""]];}";
 			id=59;
 			type="Logic";
 			atlOffset=3.8146973e-006;
@@ -6516,7 +6516,7 @@ class Mission
 				position[]={7823.5879,6.27,3110.4829};
 				angles[]={0,2.7242844,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Le Port Plant""]];}";
 			id=1078;
 			type="Logic";
 		};
@@ -6528,7 +6528,7 @@ class Mission
 				position[]={7799.2407,7.2425132,3254.3135};
 				angles[]={6.0213385,5.4551849,0.26184687};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Le Port Plant""]];}";
 			id=1079;
 			type="Logic";
 		};
@@ -6583,7 +6583,7 @@ class Mission
 				position[]={8433.1338,4.4400001,3755.679};
 				angles[]={0,3.0945482,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Le Port Plant""]];}";
 			id=1081;
 			type="Logic";
 		};
@@ -6595,7 +6595,7 @@ class Mission
 				position[]={8332.6797,13.589025,3794.8608};
 				angles[]={6.1914434,5.7533226,6.0213385};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Le Port Plant""]];}";
 			id=1082;
 			type="Logic";
 		};
@@ -6650,7 +6650,7 @@ class Mission
 				position[]={3660.4041,1.6991535,3200.9199};
 				angles[]={6.0243182,3.0945559,0.20889845};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Le Port Plant""]];}";
 			id=1084;
 			type="Logic";
 		};
@@ -6662,7 +6662,7 @@ class Mission
 				position[]={3535.988,2.1844873,3265.2029};
 				angles[]={0.0010297443,5.7533207,6.2811432};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Le Port Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Le Port Plant""]];}";
 			id=1085;
 			type="Logic";
 		};
@@ -6718,7 +6718,7 @@ class Mission
 				position[]={8203.0781,29.119484,9891.0908};
 				angles[]={0.0063879048,3.8050623,0.00076794485};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Airport Warehouse""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Airport Warehouse""]];}";
 			id=1087;
 			type="Logic";
 		};
@@ -6730,7 +6730,7 @@ class Mission
 				position[]={8149.5659,29.392,9994.9043};
 				angles[]={0,5.6469083,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Airport Warehouse""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Airport Warehouse""]];}";
 			id=1088;
 			type="Logic";
 			atlOffset=0.50200081;

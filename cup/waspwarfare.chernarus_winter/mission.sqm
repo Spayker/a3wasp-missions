@@ -464,7 +464,7 @@ class Mission
 				position[]={10038.55,6,1873.0302};
 				angles[]={0,2.9670596,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Electro Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Electro Plant""]];}";
 			id=60;
 			type="Logic";
 		};
@@ -4869,7 +4869,7 @@ class Mission
 				position[]={6433.2612,6.0076818,2726.2959};
 				angles[]={0,0.65523148,0.0012915437};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Cherno Plant""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Cherno Plant""]];}";
 			id=762;
 			type="Logic";
 		};
@@ -13208,7 +13208,7 @@ class Mission
 				position[]={12890.938,6,9744.4854};
 				angles[]={0,3.6651914,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Krasnostav Warehouse""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Krasnostav Warehouse""]];}";
 			id=1020;
 			type="Logic";
 		};
@@ -14044,7 +14044,7 @@ class Mission
 				position[]={7249.4824,6.0249023,2287.0066};
 				angles[]={0,6.0263152,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Cherno Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Cherno Port""]];}";
 			id=1066;
 			type="Logic";
 		};
@@ -14185,7 +14185,7 @@ class Mission
 				position[]={10400.77,4.0100002,1747.45};
 				angles[]={0,2.9670596,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Electro Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Electro Port""]];}";
 			id=1070;
 			type="Logic";
 		};
@@ -14240,7 +14240,7 @@ class Mission
 				position[]={13100.786,6,10374.277};
 				angles[]={0,5.0518441,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['AA', ""Berezino Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Berezino Port""]];}";
 			id=1072;
 			type="Logic";
 		};
