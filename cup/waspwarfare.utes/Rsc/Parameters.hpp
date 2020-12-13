@@ -274,17 +274,11 @@ class Params {
 		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled"};
 		default = 1;
 	};
-	class WF_C_MODULE_WF_ICBM {
-		title = "$STR_WF_PARAMETER_ICBM";
+	class WF_C_MODULE_WF_CRUISE_MISSILE {
+		title = "$STR_WF_PARAMETER_CRUISE_MISSILE";
 		values[] = {0,1};
 		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled"};
 		default = 1;
-	};
-	class WF_C_INCOME_TIME_OF_ICBM {
-		title = "$STR_WF_PARAMETER_ICBM_TIMEOUT";
-		values[] = {5,180,300,420,600};
-		texts[] = {"5","180","300","420","600"};
-		default = 300;
 	};
 	class WF_C_RESPAWN_CAMPS_MODE {
 		title = "$STR_WF_PARAMETER_Camp";
