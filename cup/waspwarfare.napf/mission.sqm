@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3022.3606,189.36046,11725.278};
-		dir[]={0.069606163,-0.7009511,0.70981061};
-		up[]={0.068409368,0.71321118,0.69760561};
-		aside[]={0.99523067,4.019239e-008,-0.097595468};
+		pos[]={12426.024,45.579121,15492.49};
+		dir[]={-0.51169896,-0.60430551,0.61073118};
+		up[]={-0.38810155,0.79674906,0.46321288};
+		aside[]={0.76651967,-1.0302756e-007,0.64222717};
 	};
 };
 binarizationWanted=0;
@@ -13218,8 +13218,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6207.2129,6.8480315,10702.452};
-				angles[]={0,3.1677549,0};
+				position[]={6210.6006,6.8411632,10750.403};
+				angles[]={0.016995618,0.016313307,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13264,7 +13264,7 @@ class Mission
 				position[]={6044.5791,5.9312391,10665.14};
 				angles[]={0,4.8374162,0.0049914722};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG', ""Muttenz Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Muttenz Port""]];}";
 			id=1481;
 			type="Logic";
 		};
@@ -13288,7 +13288,7 @@ class Mission
 				position[]={6245.8716,4.7502041,10781.812};
 				angles[]={0.048958585,0.78742766,0.057931717};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG', ""Muttenz Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Muttenz Port""]];}";
 			id=1484;
 			type="Logic";
 		};
@@ -13729,8 +13729,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17140.439,5.8743725,18781.564};
-				angles[]={0,5.8502388,0};
+				position[]={17135.801,6.0801229,18758.691};
+				angles[]={0,5.9243674,6.2342281};
 			};
 			side="Empty";
 			flags=4;
@@ -13775,7 +13775,7 @@ class Mission
 				position[]={17094.943,4.9952788,18856.758};
 				angles[]={0.052946996,5.2996879,6.216289};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG', ""Muttenz Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Muttenz Port""]];}";
 			id=1502;
 			type="Logic";
 		};
@@ -13784,8 +13784,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12388.059,5.5980673,15536.822};
-				angles[]={0.058922313,5.6493511,6.2532005};
+				position[]={12388.607,5.8337536,15532.549};
+				angles[]={0.058926895,5.6493511,6.2531977};
 			};
 			side="Empty";
 			flags=4;
@@ -13830,7 +13830,7 @@ class Mission
 				position[]={12335.569,5.3459678,15624.73};
 				angles[]={0.019996032,4.9424648,6.2182822};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG', ""Brienz Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Brienz Port""]];}";
 			id=1504;
 			type="Logic";
 		};
@@ -13885,7 +13885,7 @@ class Mission
 				position[]={9154.9971,10.984029,17576.707};
 				angles[]={0,3.1876466,0};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG', ""Brienz Port""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Brienz Port""]];}";
 			id=1506;
 			type="Logic";
 		};
@@ -13941,7 +13941,7 @@ class Mission
 				position[]={9357.168,28.964582,16294.289};
 				angles[]={6.2781763,5.9435792,0.034976397};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG', ""Hafen Radar""]];}";
+			init="call{this setVariable ['wf_defense_kind', ['AA', ""Hafen Radar""]];}";
 			id=1508;
 			type="Logic";
 			atlOffset=1.9073486e-006;
