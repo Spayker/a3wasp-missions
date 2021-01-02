@@ -247,6 +247,7 @@ class Mission
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
+		rainForced=1;
 		year=2035;
 		month=6;
 		day=6;

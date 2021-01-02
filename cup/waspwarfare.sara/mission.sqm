@@ -281,7 +281,6 @@ class Mission
 		forecastWeather=0.8455832;
 		forecastWind=0.59552699;
 		forecastWaves=0.90177578;
-		forecastRain=0.69667327;
 		forecastLightnings=0.50280958;
 		forecastGust=1;
 		forecastWindDir=110;
@@ -11152,7 +11151,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11194.76,7.2796912,16938.969};
-				angles[]={-0,3.1458735,0};
+				angles[]={0,3.1458735,0};
 			};
 			side="Empty";
 			flags=4;
