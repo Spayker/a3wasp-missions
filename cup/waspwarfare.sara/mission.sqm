@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=1069;
+		nextID=1097;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={19207.17,29.994999,13535.191};
-		dir[]={-0.081445709,-0.48119456,0.87282383};
-		up[]={-0.044707507,0.87661445,0.47911409};
-		aside[]={0.99567604,-4.5165507e-009,0.092909411};
+		pos[]={13898.849,216.29437,16553.684};
+		dir[]={0.57806849,-0.78720814,0.21498697};
+		up[]={0.73783225,0.61668009,0.27440399};
+		aside[]={0.34859145,-2.3428584e-007,-0.93731433};
 	};
 };
 binarizationWanted=0;
@@ -298,7 +298,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=408;
+		items=430;
 		class Item0
 		{
 			dataType="Marker";
@@ -538,9 +538,9 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11715.243,230.2291,14522.1};
-				angles[]={0.094219349,4.712389,6.2113113};
+				angles[]={0.094212867,4.712389,6.2113123};
 			};
-			init="this setVariable ['wf_defense_kind', ['MG']];";
+			init="call{this setVariable ['wf_defense_kind', ['MG',""Tandag""]];}";
 			id=21;
 			type="Logic";
 		};
@@ -550,9 +550,9 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11973.726,217.67407,14474.998};
-				angles[]={0.020294882,1.2217305,6.2404122};
+				angles[]={0.020298179,1.2217305,6.2404075};
 			};
-			init="this setVariable ['wf_defense_kind', ['MG']];";
+			init="call{this setVariable ['wf_defense_kind', ['MG',""Tandag""]];}";
 			id=22;
 			type="Logic";
 		};
@@ -1966,15 +1966,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11482.54,21.614933,6067.4702};
-				angles[]={6.1513953,4.943994,0.027907815};
+				position[]={11251.605,25.864693,5908.8267};
+				angles[]={-0,0.89182293,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Dolores"",""+"",10,40,400,[],[""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Dolores"",""+"",10,50,300,[],[""fuelStation"", ""repairStation""], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Dolores";
 				disableSimulation=1;
 			};
@@ -2009,8 +2009,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11580.26,19.1633,6304.0264};
-				angles[]={6.16576,5.4854088,6.235373};
+				position[]={11211.257,29.479019,6140.7109};
+				angles[]={0.058432955,1.7255768,6.2068338};
 			};
 			side="Empty";
 			flags=4;
@@ -2051,8 +2051,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11422.498,25.066521,5811.1489};
-				angles[]={0.0045029493,4.1822104,0.089762285};
+				position[]={11480.03,24.756802,5863.9268};
+				angles[]={-0,0.48570579,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2093,8 +2093,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11450.962,33.926704,5756.6108};
-				angles[]={0.24474752,1.9198622,0.098680913};
+				position[]={11442.481,22.250832,5826.8555};
+				angles[]={0.024744498,1.9198622,6.2692885};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG', ""Dolores""]];}";
 			id=78;
@@ -4455,7 +4455,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Chantico"",""+"",20,60,700,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Chantico"",""+"",20,60,350,[],[""fuelStation""]] spawn WFCO_fnc_initTown;}";
 				name="Chantico";
 				disableSimulation=1;
 			};
@@ -5044,7 +5044,7 @@ class Mission
 				position[]={1917,0.17777252,54.747002};
 			};
 			name="WF_Logic";
-			init="call{this setVariable [""totalTowns"",64];  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
+			init="call{this setVariable [""totalTowns"",69];  nullReturn = [this] spawn WFCO_fnc_initTownMode}";
 			id=224;
 			type="Logic";
 			atlOffset=72.139008;
@@ -5111,8 +5111,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11306.239,4.1899548,5208.2373};
-				angles[]={0.085292116,0,6.2382145};
+				position[]={10348.377,43.297474,5789.9341};
+				angles[]={6.2271247,0,0.0012918708};
 			};
 			id=468;
 			type="LocationArea_F";
@@ -8568,8 +8568,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11582.08,19.107327,6330.7261};
-				angles[]={6.1631064,5.5009108,6.1217599};
+				position[]={11196.967,28.17761,6145.9702};
+				angles[]={0.028493335,5.2709742,6.1269689};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG', ""Dolores""]];}";
 			id=836;
@@ -10876,15 +10876,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11908.353,8.8546915,6103.4072};
-				angles[]={0,4.7242746,0};
+				position[]={11626.848,19.18108,5914.959};
+				angles[]={0.27405158,4.6981125,0.078592174};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{nullReturn = [this,""Dolores Port"",""+"",10,40,400, [""port""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				init="call{nullReturn = [this,""Dolores Port"",""+"",10,40,400, [""port""], ['repairStation'], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
 				name="Dolores_Port";
 				disableSimulation=1;
 			};
@@ -10919,28 +10919,15 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11908.976,37.088024,6152.0132};
-				angles[]={0,0.37740999,0};
+				position[]={11614.775,21.314058,5892.0132};
+				angles[]={0,3.8466971,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG', ""Dolores Port""]];}";
 			id=1022;
 			type="Logic";
-			atlOffset=0.54000092;
+			atlOffset=0.54014015;
 		};
 		class Item364
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={11773.29,9.9858665,6125.0771};
-				angles[]={0,5.5307565,0};
-			};
-			init="call{this setVariable ['wf_defense_kind', ['MG', ""Dolores Port""]];}";
-			id=1023;
-			type="Logic";
-			atlOffset=0.53999996;
-		};
-		class Item365
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10983,7 +10970,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item366
+		class Item365
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -10996,7 +10983,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.53999329;
 		};
-		class Item367
+		class Item366
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11009,7 +10996,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.53999329;
 		};
-		class Item368
+		class Item367
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11052,7 +11039,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item369
+		class Item368
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11065,7 +11052,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.6523819;
 		};
-		class Item370
+		class Item369
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11078,7 +11065,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.53994751;
 		};
-		class Item371
+		class Item370
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11121,7 +11108,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item372
+		class Item371
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11133,7 +11120,7 @@ class Mission
 			id=1031;
 			type="Logic";
 		};
-		class Item373
+		class Item372
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11145,7 +11132,7 @@ class Mission
 			id=1032;
 			type="Logic";
 		};
-		class Item374
+		class Item373
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11188,7 +11175,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item375
+		class Item374
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11201,7 +11188,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.5402174;
 		};
-		class Item376
+		class Item375
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11214,7 +11201,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.53995705;
 		};
-		class Item377
+		class Item376
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11257,7 +11244,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item378
+		class Item377
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11269,7 +11256,7 @@ class Mission
 			id=1037;
 			type="Logic";
 		};
-		class Item379
+		class Item378
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11281,7 +11268,7 @@ class Mission
 			id=1038;
 			type="Logic";
 		};
-		class Item380
+		class Item379
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11292,7 +11279,7 @@ class Mission
 			id=1040;
 			type="LocationRespawnPoint_F";
 		};
-		class Item381
+		class Item380
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11303,7 +11290,7 @@ class Mission
 			id=1041;
 			type="LocationRespawnPoint_F";
 		};
-		class Item382
+		class Item381
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11346,7 +11333,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item383
+		class Item382
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11358,7 +11345,7 @@ class Mission
 			id=1043;
 			type="Logic";
 		};
-		class Item384
+		class Item383
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11370,7 +11357,7 @@ class Mission
 			id=1044;
 			type="Logic";
 		};
-		class Item385
+		class Item384
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11413,7 +11400,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item386
+		class Item385
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11425,7 +11412,7 @@ class Mission
 			id=1046;
 			type="Logic";
 		};
-		class Item387
+		class Item386
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11437,7 +11424,7 @@ class Mission
 			id=1047;
 			type="Logic";
 		};
-		class Item388
+		class Item387
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11480,7 +11467,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item389
+		class Item388
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11522,7 +11509,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item390
+		class Item389
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11534,7 +11521,7 @@ class Mission
 			id=1051;
 			type="Logic";
 		};
-		class Item391
+		class Item390
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11578,7 +11565,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item392
+		class Item391
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11620,7 +11607,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item393
+		class Item392
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11632,7 +11619,7 @@ class Mission
 			id=1054;
 			type="Logic";
 		};
-		class Item394
+		class Item393
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11675,7 +11662,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item395
+		class Item394
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11687,7 +11674,7 @@ class Mission
 			id=1056;
 			type="Logic";
 		};
-		class Item396
+		class Item395
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11731,7 +11718,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item397
+		class Item396
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11773,7 +11760,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item398
+		class Item397
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11815,7 +11802,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item399
+		class Item398
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11827,7 +11814,7 @@ class Mission
 			id=1060;
 			type="Logic";
 		};
-		class Item400
+		class Item399
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11839,7 +11826,7 @@ class Mission
 			id=1061;
 			type="Logic";
 		};
-		class Item401
+		class Item400
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11882,7 +11869,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item402
+		class Item401
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11892,7 +11879,7 @@ class Mission
 			id=1063;
 			type="LocationOutpost_F";
 		};
-		class Item403
+		class Item402
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11903,7 +11890,7 @@ class Mission
 			id=1064;
 			type="LocationRespawnPoint_F";
 		};
-		class Item404
+		class Item403
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11914,7 +11901,7 @@ class Mission
 			id=1065;
 			type="LocationRespawnPoint_F";
 		};
-		class Item405
+		class Item404
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11957,7 +11944,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item406
+		class Item405
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11970,7 +11957,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.5400002;
 		};
-		class Item407
+		class Item406
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11982,6 +11969,551 @@ class Mission
 			id=1068;
 			type="Logic";
 			atlOffset=0.53999901;
+		};
+		class Item407
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11393.405,7.7779188,5382.7358};
+				angles[]={6.2157807,2.802161,6.2629395};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Parato"",""+"",10,50,350] spawn WFCO_fnc_initTown;}";
+				name="Parato";
+				disableSimulation=1;
+			};
+			id=1069;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="pitch";
+					expression="_this setpitch _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.89999998;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item408
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11255.16,7.3218708,5282.313};
+				angles[]={0.006754424,0.44200465,6.2561851};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Parato""];}";
+				disableSimulation=1;
+			};
+			id=1070;
+			type="Land_Fort_Watchtower";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item409
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11207.155,5.9520197,5266.1221};
+				angles[]={6.2764311,4.9101343,6.2539511};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', 'Parato']];}";
+			id=1071;
+			type="Logic";
+			atlOffset=-4.7683716e-007;
+		};
+		class Item410
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11253.289,8.4447117,5195.5068};
+				angles[]={0.083060212,3.6588733,6.2674422};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', 'Parato']];}";
+			id=1072;
+			type="Logic";
+		};
+		class Item411
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11432.901,4.846302,5376.7832};
+				angles[]={0.049008846,0.95527107,6.2473712};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', 'Parato']];}";
+			id=1073;
+			type="Logic";
+		};
+		class Item412
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8759.793,35.854691,6188.7402};
+				angles[]={0,1.7763612,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Cayo Oilfield"",""+"",10,40,350, [""plant""], [], [[2, ""medium""] , [2, ""medium""]]] spawn WFCO_fnc_initTown;}";
+				name="Cayo_Oilfield";
+				disableSimulation=1;
+			};
+			id=1074;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item413
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8718.4209,35.505001,6206.4731};
+				angles[]={0,5.0892754,0};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Cayo Oilfield""]];}";
+			id=1075;
+			type="Logic";
+			atlOffset=0.54000092;
+		};
+		class Item414
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8810.1543,35.505001,6206.6519};
+				angles[]={0,1.5714247,0};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Cayo Oilfield""]];}";
+			id=1076;
+			type="Logic";
+			atlOffset=0.54000092;
+		};
+		class Item415
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8233.3027,7.8646913,9579.2588};
+				angles[]={0,0.88961178,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Playa"",""+"",10,50,300,[],[""repairStation""]] spawn WFCO_fnc_initTown;}";
+				name="Playa";
+				disableSimulation=1;
+			};
+			id=1077;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item416
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8322.1113,6.9703026,9559.0908};
+				angles[]={6.2780194,2.4645095,0};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Playa""]];}";
+			id=1078;
+			type="Logic";
+			atlOffset=-4.7683716e-007;
+		};
+		class Item417
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8167.0898,7.3563414,9501.4785};
+				angles[]={0.006754424,3.170635,0.022497294};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Playa""];}";
+				disableSimulation=1;
+			};
+			id=1079;
+			type="Land_Fort_Watchtower";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item418
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8151.7798,5.2098908,9494.915};
+				angles[]={0.0022689279,3.0498056,6.2584367};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Playa""]];}";
+			id=1080;
+			type="Logic";
+		};
+		class Item419
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8264.585,9.3314381,9689.8486};
+				angles[]={6.2786822,3.8156037,0.0022340214};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{this setVariable [""WF_CAMP_TOWN"", ""Playa""];}";
+				disableSimulation=1;
+			};
+			id=1081;
+			type="Land_Fort_Watchtower";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item420
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8284.3164,7.1477008,9692.4395};
+				angles[]={6.2809515,0.5546307,0.0022340214};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Playa""]];}";
+			id=1082;
+			type="Logic";
+		};
+		class Item421
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11459.699,28.195148,6289.7158};
+				angles[]={0,1.1823559,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Dolores Base"",""+"",10,50,300, [""militaryBase""],[""fuelStation"", ""repairStation"", ""rearmStation"", ""healStation""]] spawn WFCO_fnc_initTown;}";
+				name="Dolores_Base";
+				disableSimulation=1;
+			};
+			id=1083;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item422
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11439.083,27.014345,6282.7803};
+				angles[]={6.2427068,4.2345796,0.0090034921};
+			};
+			id=1087;
+			type="LocationRespawnPoint_F";
+		};
+		class Item423
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11486.052,27.162876,6302.8794};
+				angles[]={0.0022375863,1.0999756,6.2516966};
+			};
+			id=1088;
+			type="LocationRespawnPoint_F";
+		};
+		class Item424
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11446.052,25.570642,6259.7178};
+				angles[]={0,4.2093329,0.03148574};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Dolores Base""]];}";
+			id=1089;
+			type="Logic";
+			atlOffset=-1.9073486e-006;
+		};
+		class Item425
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11498.025,26.73888,6349.8589};
+				angles[]={0,1.3124701,6.2786822};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Dolores Base""]];}";
+			id=1090;
+			type="Logic";
+			atlOffset=-1.9073486e-006;
+		};
+		class Item426
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11843.072,40.816814,6173.583};
+				angles[]={6.2764311,1.554111,6.271945};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="call{nullReturn = [this,""Dolores Radar"",""+"",10,50,300, [""radar""],[]] spawn WFCO_fnc_initTown;}";
+				name="Dolores_Radar";
+				disableSimulation=1;
+			};
+			id=1091;
+			type="Land_BagBunker_Large_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item427
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11850.899,48.612053,6208.541};
+				angles[]={0.011257373,4.6447573,0.24050637};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['AT', ""Dolores Radar""]];}";
+			id=1094;
+			type="Logic";
+		};
+		class Item428
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11899.027,53.409588,6224.5708};
+				angles[]={0.33354986,0.75379026,0.04272566};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""Dolores Radar""]];}";
+			id=1095;
+			type="Logic";
+			atlOffset=3.8146973e-006;
+		};
+		class Item429
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={12408.153,31.70149,8505.0078};
+				angles[]={0,1.6402605,6.2471962};
+			};
+			init="call{this setVariable ['wf_defense_kind', ['MG', ""West Corazol Base""]];}";
+			id=1096;
+			type="Logic";
 		};
 	};
 };
