@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1442;
+		nextID=1452;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8452.4063,247.57147,6703.6826};
-		dir[]={-0.24881613,-0.50732958,0.82505155};
-		up[]={-0.14648271,0.86175191,0.48572326};
-		aside[]={0.95741183,-3.5288394e-009,0.28873304};
+		pos[]={4490.0923,169.40669,4740.7661};
+		dir[]={0,-0.70710671,0.70710689};
+		up[]={0,0.70710683,0.70710665};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -278,7 +278,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=317;
+		items=327;
 		class Item0
 		{
 			dataType="Marker";
@@ -671,6 +671,7 @@ class Mission
 			};
 			id=56;
 			type="Land_BagBunker_Large_F";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9151,6 +9152,7 @@ class Mission
 			};
 			id=1420;
 			type="Land_BagBunker_Large_F";
+			atlOffset=3.8146973e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9299,6 +9301,7 @@ class Mission
 			};
 			id=1424;
 			type="Land_BagBunker_Large_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9477,7 +9480,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11106.997,4.0999999,11417.123};
-				angles[]={-0,3.7295003,0};
+				angles[]={0,3.7295003,0};
 			};
 			init="call{this setVariable ['wf_defense_kind', ['MG', ""Nadbor Warehouse""]];}";
 			id=1429;
@@ -9809,6 +9812,116 @@ class Mission
 			init="call{this setVariable ['wf_defense_kind', ['MG', 'Belawa Radar']];}";
 			id=1441;
 			type="Logic";
+		};
+		class Item317
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4926.0317,354.15723,2110.875};
+				angles[]={0.0032018756,5.87537,6.2464046};
+			};
+			id=1442;
+			type="LocationRespawnPoint_F";
+		};
+		class Item318
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4944.1426,356.9805,2171.356};
+				angles[]={6.1669154,2.6824625,6.2224593};
+			};
+			id=1443;
+			type="LocationRespawnPoint_F";
+		};
+		class Item319
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={7611.3564,63.03281,5978.3232};
+				angles[]={-0,2.6259823,6.271987};
+			};
+			id=1444;
+			type="LocationRespawnPoint_F";
+		};
+		class Item320
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={7669.04,63.160465,5962.6328};
+				angles[]={-0,2.7864306,0.001544081};
+			};
+			id=1445;
+			type="LocationRespawnPoint_F";
+		};
+		class Item321
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={6413.1729,53.503315,8169.7949};
+				angles[]={0.006394445,5.5402122,0};
+			};
+			id=1446;
+			type="LocationRespawnPoint_F";
+		};
+		class Item322
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={6398.8252,53.687576,8135.4912};
+				angles[]={0.0015822123,0.77223003,0.004796607};
+			};
+			id=1447;
+			type="LocationRespawnPoint_F";
+		};
+		class Item323
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8162.3223,37.110001,10857.084};
+				angles[]={-0,4.5784969,0};
+			};
+			id=1448;
+			type="LocationRespawnPoint_F";
+		};
+		class Item324
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8165.771,35.875465,10900.173};
+				angles[]={-0,4.5366831,0};
+			};
+			id=1449;
+			type="LocationRespawnPoint_F";
+		};
+		class Item325
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4491.4805,111.40079,4817.3535};
+				angles[]={0.0032018756,1.5223684,6.2671871};
+			};
+			id=1450;
+			type="LocationRespawnPoint_F";
+		};
+		class Item326
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4491.6973,111.46,4838.1206};
+				angles[]={-0,1.55706,0};
+			};
+			id=1451;
+			type="LocationRespawnPoint_F";
 		};
 	};
 	class Connections
