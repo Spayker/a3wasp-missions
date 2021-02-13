@@ -229,7 +229,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Warfare In Tanoa V59";
+		briefingName="Warfare In Tanoa V60 RC1";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
