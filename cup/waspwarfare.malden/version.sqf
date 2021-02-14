@@ -13,4 +13,4 @@
 /* Description.ext Specific */
 #define WF_MAXPLAYERS 55
 #define WF_MISSIONNAME "Warfare FOR Malden"
-#define WF_RESPAWNDELAY 30
+#define WF_RESPAWNDELAY 10

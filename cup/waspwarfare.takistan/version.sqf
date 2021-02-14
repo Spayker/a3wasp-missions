@@ -13,4 +13,4 @@
 /* Description.ext Specific */
 #define WF_MAXPLAYERS 61
 #define WF_MISSIONNAME "Warfare For Takistan"
-#define WF_RESPAWNDELAY 30
+#define WF_RESPAWNDELAY 10
