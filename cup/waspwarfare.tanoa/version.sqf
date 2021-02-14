@@ -5,7 +5,6 @@
 
 /* DEBUG */
 //#define WF_DEBUG 1
-//#define WF_SKIP_INTRO 1
 
 /* Gameplay: Change the overall camo */
 #define WF_CAMO 1
@@ -13,5 +12,5 @@
 
 /* Description.ext Specific */
 #define WF_MAXPLAYERS 55
-#define WF_MISSIONNAME "Warfare V59 Tanoa"
-#define WF_RESPAWNDELAY 2
+#define WF_MISSIONNAME "Warfare For Tanoa"
+#define WF_RESPAWNDELAY 30
