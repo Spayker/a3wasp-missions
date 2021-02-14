@@ -301,8 +301,8 @@ class Params {
 	};
 	class WF_C_RESPAWN_MOBILE {
 		title = "$STR_WF_PARAMETER_MobileRespawn";
-		values[] = {0,1,2};
-		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled","$STR_WF_Enabled_DefaultGear"};
+		values[] = {0,1};
+		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled"};
 		default = 1;
 	};
 	class WF_C_RESPAWN_PENALTY {
