@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1536;
+		nextID=1539;
 	};
 	class MarkerIDProvider
 	{
@@ -31,13 +31,14 @@ addons[]=
 	"CUP_Creatures_Military_Russia",
 	"A3_Structures_F_Mil_BagBunker",
 	"CUP_Misc3_Config",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=8;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -80,6 +81,13 @@ class AddonsMetaData
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
+		};
+		class Item7
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -262,7 +270,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In NAPF V60 RC1";
+		briefingName="Warfare In NAPF V60 RC2";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0.34828058;
@@ -281,7 +289,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=383;
+		items=386;
 		class Item0
 		{
 			dataType="Logic";
@@ -14774,6 +14782,32 @@ class Mission
 				};
 				nAttributes=3;
 			};
+		};
+		class Item383
+		{
+			dataType="Marker";
+			position[]={1495.2067,12.380955,3262.0442};
+			name="WestTempRespawnMarker";
+			type="Empty";
+			id=1536;
+		};
+		class Item384
+		{
+			dataType="Marker";
+			position[]={970.34924,24.623047,3481.8271};
+			name="EastTempRespawnMarker";
+			type="Empty";
+			id=1537;
+			atlOffset=-6.3447323;
+		};
+		class Item385
+		{
+			dataType="Marker";
+			position[]={1526.0105,10.63579,2691.0205};
+			name="GuerTempRespawnMarker";
+			type="Empty";
+			id=1538;
+			atlOffset=-13.066612;
 		};
 	};
 };

@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1888;
+		nextID=1891;
 	};
 	class Camera
 	{
@@ -29,13 +29,14 @@ addons[]=
 	"CUP_Creatures_Military_USArmy",
 	"CUP_Misc3_Config",
 	"CUP_Creatures_Military_Russia",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=10;
 		class Item0
 		{
 			className="A3_Structures_F_Mil";
@@ -90,6 +91,13 @@ class AddonsMetaData
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
+		};
+		class Item9
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -229,7 +237,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Warfare In Tanoa V60 RC1";
+		briefingName="Warfare In Tanoa V60 RC2";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
@@ -252,7 +260,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=412;
+		items=415;
 		class Item0
 		{
 			dataType="Object";
@@ -12581,6 +12589,31 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item412
+		{
+			dataType="Marker";
+			position[]={5559.0615,3.1650879,14578.733};
+			name="WestTempRespawnMarker";
+			type="Empty";
+			id=1888;
+		};
+		class Item413
+		{
+			dataType="Marker";
+			position[]={5285.4526,-17.298117,14535.438};
+			name="EastTempRespawnMarker";
+			type="Empty";
+			id=1889;
+			atlOffset=-23.598293;
+		};
+		class Item414
+		{
+			dataType="Marker";
+			position[]={5447.1694,3.2680078,14446.013};
+			name="GuerTempRespawnMarker";
+			type="Empty";
+			id=1890;
 		};
 	};
 };

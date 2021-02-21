@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=1097;
+		nextID=1100;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={13898.849,216.29437,16553.684};
-		dir[]={0.57806849,-0.78720814,0.21498697};
-		up[]={0.73783225,0.61668009,0.27440399};
-		aside[]={0.34859145,-2.3428584e-007,-0.93731433};
+		pos[]={1649.4058,40.940777,2120.2551};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -31,13 +31,14 @@ addons[]=
 	"A3_Modules_F_Heli_Misc",
 	"A3_Characters_F",
 	"CUP_Creatures_Military_Russia",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=8;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -80,6 +81,13 @@ class AddonsMetaData
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
+		};
+		class Item7
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -262,7 +270,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Sahrani V60 RC1";
+		briefingName="Warfare In Sahrani V60 RC2";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0.35109019;
@@ -290,7 +298,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=427;
+		items=430;
 		class Item0
 		{
 			dataType="Logic";
@@ -12484,6 +12492,32 @@ class Mission
 			init="call{this setVariable ['wf_defense_kind', ['MG', ""West Corazol Base""]];}";
 			id=1096;
 			type="Logic";
+		};
+		class Item427
+		{
+			dataType="Marker";
+			position[]={1599.1882,4.921875,1607.2749};
+			name="WestTempRespawnMarker";
+			type="Empty";
+			id=1097;
+			atlOffset=-1.5360484;
+		};
+		class Item428
+		{
+			dataType="Marker";
+			position[]={1511.4523,16.930971,2328.043};
+			name="EastTempRespawnMarker";
+			type="Empty";
+			id=1098;
+		};
+		class Item429
+		{
+			dataType="Marker";
+			position[]={1701.804,10.942993,2201.2659};
+			name="GuerTempRespawnMarker";
+			type="Empty";
+			id=1099;
+			atlOffset=-11.585882;
 		};
 	};
 };

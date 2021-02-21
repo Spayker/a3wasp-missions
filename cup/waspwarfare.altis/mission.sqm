@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1345;
+		nextID=1348;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7482.3667,182.15846,15334.65};
-		dir[]={-0.23524916,-0.66383666,0.70992512};
-		up[]={-0.2088106,0.74787563,0.63014221};
-		aside[]={0.94924635,-5.9386366e-008,0.31455418};
+		pos[]={8344.3457,113.47742,25030.9};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -33,13 +33,14 @@ addons[]=
 	"CUP_Creatures_Military_Russia",
 	"CUP_Creatures_Military_USArmy",
 	"CUP_Misc3_Config",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=10;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -94,6 +95,13 @@ class AddonsMetaData
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
+		};
+		class Item9
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -252,7 +260,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Altis V60 RC1";
+		briefingName="Warfare In Altis V60 RC2";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -271,7 +279,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=502;
+		items=505;
 		class Item0
 		{
 			dataType="Logic";
@@ -13550,6 +13558,32 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item502
+		{
+			dataType="Marker";
+			position[]={8774.2334,55.382256,25270.381};
+			name="WestTempRespawnMarker";
+			type="Empty";
+			id=1345;
+		};
+		class Item503
+		{
+			dataType="Marker";
+			position[]={8389.9629,64.59082,25286.313};
+			name="EastTempRespawnMarker";
+			type="Empty";
+			id=1346;
+			atlOffset=-1.0368652;
+		};
+		class Item504
+		{
+			dataType="Marker";
+			position[]={8416.0801,31.90332,24849.314};
+			name="GuerTempRespawnMarker";
+			type="Empty";
+			id=1347;
+			atlOffset=-10.227692;
 		};
 	};
 };

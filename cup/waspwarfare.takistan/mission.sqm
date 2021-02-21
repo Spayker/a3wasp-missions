@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=3251;
+		nextID=3254;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6172.6802,107.40544,11005.742};
-		dir[]={-0.0046793232,-0.47128424,0.881971};
-		up[]={-0.0025003816,0.88198024,0.47127834};
-		aside[]={0.99998677,-5.2568794e-010,0.0053054593};
+		pos[]={12328.736,336.8566,12086.637};
+		dir[]={0.014036668,-0.76841712,0.63983524};
+		up[]={0.016854011,0.6399411,0.76823658};
+		aside[]={0.99978578,-2.0051698e-007,-0.021934798};
 	};
 };
 binarizationWanted=0;
@@ -36,13 +36,14 @@ addons[]=
 	"CUP_Misc_e_Config",
 	"A3_Structures_F_Mil_BagBunker",
 	"CUP_Buildings_Config",
-	"CUP_Creatures_Military_NAPA"
+	"CUP_Creatures_Military_NAPA",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -90,6 +91,13 @@ class AddonsMetaData
 		{
 			className="CUP_Creatures_Military_NAPA";
 			name="CUP_Creatures_Military_NAPA";
+		};
+		class Item8
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -271,7 +279,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Takistan V60 RC1";
+		briefingName="Warfare In Takistan V60 RC2";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -290,7 +298,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=352;
+		items=355;
 		class Item0
 		{
 			dataType="Group";
@@ -11924,6 +11932,31 @@ class Mission
 			{
 			};
 			id=3247;
+		};
+		class Item352
+		{
+			dataType="Marker";
+			position[]={12279.384,184.41112,12276.027};
+			name="WestTempRespawnMarker";
+			type="Empty";
+			id=3251;
+		};
+		class Item353
+		{
+			dataType="Marker";
+			position[]={11760.774,205.58496,12680.281};
+			name="EastTempRespawnMarker";
+			type="Empty";
+			id=3252;
+			atlOffset=-8.9029236;
+		};
+		class Item354
+		{
+			dataType="Marker";
+			position[]={12055.57,211.10223,12541.345};
+			name="GuerTempRespawnMarker";
+			type="Empty";
+			id=3253;
 		};
 	};
 };

@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1096;
+		nextID=1099;
 	};
 	class MarkerIDProvider
 	{
@@ -32,13 +32,14 @@ addons[]=
 	"CUP_Creatures_Military_Russia",
 	"CUP_Creatures_Military_USArmy",
 	"CUP_Misc3_Config",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -86,6 +87,13 @@ class AddonsMetaData
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
+		};
+		class Item8
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -244,7 +252,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Malden V60 RC1";
+		briefingName="Warfare In Malden V60 RC2";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -263,7 +271,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=246;
+		items=249;
 		class Item0
 		{
 			dataType="Logic";
@@ -6807,6 +6815,31 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item246
+		{
+			dataType="Marker";
+			position[]={10242.634,-13.698464,2178.4866};
+			name="WestTempRespawnMarker";
+			type="Empty";
+			id=1096;
+			atlOffset=-18.507689;
+		};
+		class Item247
+		{
+			dataType="Marker";
+			position[]={9841.4785,16.827185,2321.7065};
+			name="EastTempRespawnMarker";
+			type="Empty";
+			id=1097;
+		};
+		class Item248
+		{
+			dataType="Marker";
+			position[]={10058.526,10.116309,2197.731};
+			name="GuerTempRespawnMarker";
+			type="Empty";
+			id=1098;
 		};
 	};
 };

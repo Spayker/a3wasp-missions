@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=1452;
+		nextID=1455;
 	};
 	class MarkerIDProvider
 	{
@@ -33,13 +33,14 @@ addons[]=
 	"CUP_Creatures_Military_Russia",
 	"CUP_Creatures_Military_USArmy",
 	"CUP_Misc3_Config",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=10;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -94,6 +95,13 @@ class AddonsMetaData
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
+		};
+		class Item9
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -251,7 +259,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Warfare In Livonia V60 RC1";
+		briefingName="Warfare In Livonia V60 RC2";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -270,7 +278,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=324;
+		items=327;
 		class Item0
 		{
 			dataType="Logic";
@@ -9888,6 +9896,32 @@ class Mission
 			};
 			id=1451;
 			type="LocationRespawnPoint_F";
+		};
+		class Item324
+		{
+			dataType="Marker";
+			position[]={12638.357,41.240742,12620.235};
+			name="WestTempRespawnMarker";
+			type="Empty";
+			id=1452;
+			atlOffset=-12.233963;
+		};
+		class Item325
+		{
+			dataType="Marker";
+			position[]={12400.534,43.004089,12684.494};
+			name="EastTempRespawnMarker";
+			type="Empty";
+			id=1453;
+		};
+		class Item326
+		{
+			dataType="Marker";
+			position[]={12325.603,58.579102,12410.05};
+			name="GuerTempRespawnMarker";
+			type="Empty";
+			id=1454;
+			atlOffset=-22.39727;
 		};
 	};
 	class Connections

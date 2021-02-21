@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=3139;
+		nextID=3142;
 	};
 	class MarkerIDProvider
 	{
@@ -36,13 +36,14 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Structures_F_Mil_BagBunker",
 	"CUP_Misc_e_Config",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -92,6 +93,13 @@ class AddonsMetaData
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
+		};
+		class Item8
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -273,7 +281,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Zargabad V60 RC1";
+		briefingName="Warfare In Zargabad V60 RC2";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -292,7 +300,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=142;
+		items=145;
 		class Item0
 		{
 			dataType="Logic";
@@ -5962,6 +5970,33 @@ class Mission
 			init="this setVariable ['wf_defense_kind', ['MG']];";
 			id=3138;
 			type="Logic";
+		};
+		class Item142
+		{
+			dataType="Marker";
+			position[]={5048.4023,218.09814,8250.9609};
+			name="WestTempRespawnMarker";
+			type="Empty";
+			id=3139;
+			atlOffset=10.227707;
+		};
+		class Item143
+		{
+			dataType="Marker";
+			position[]={4573.0557,184.22911,8275.1729};
+			name="EastTempRespawnMarker";
+			type="Empty";
+			id=3140;
+			atlOffset=-8.3670807;
+		};
+		class Item144
+		{
+			dataType="Marker";
+			position[]={4825.4834,162.48389,8188.6812};
+			name="GuerTempRespawnMarker";
+			type="Empty";
+			id=3141;
+			atlOffset=-43.076172;
 		};
 	};
 };

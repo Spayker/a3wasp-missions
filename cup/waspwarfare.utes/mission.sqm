@@ -8,7 +8,7 @@ class EditorData
 	toggles=577;
 	class ItemIDProvider
 	{
-		nextID=737;
+		nextID=740;
 	};
 	class MarkerIDProvider
 	{
@@ -31,13 +31,14 @@ addons[]=
 	"CUP_Creatures_Military_Russia",
 	"A3_Structures_F_Mil_BagBunker",
 	"CUP_Misc3_Config",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=8;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -80,6 +81,13 @@ class AddonsMetaData
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
+		};
+		class Item7
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -262,7 +270,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Utes V60 RC1";
+		briefingName="Warfare In Utes V60 RC2";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -281,7 +289,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=103;
+		items=106;
 		class Item0
 		{
 			dataType="Logic";
@@ -4632,6 +4640,31 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item103
+		{
+			dataType="Marker";
+			position[]={2216.7993,9.8467989,3826.5659};
+			name="WestTempRespawnMarker";
+			type="Empty";
+			id=737;
+		};
+		class Item104
+		{
+			dataType="Marker";
+			position[]={2090.0652,18.88954,4304.6196};
+			name="EastTempRespawnMarker";
+			type="Empty";
+			id=738;
+			atlOffset=-1.0368652;
+		};
+		class Item105
+		{
+			dataType="Marker";
+			position[]={2265.4094,26.64941,4063.7827};
+			name="GuerTempRespawnMarker";
+			type="Empty";
+			id=739;
 		};
 	};
 };
