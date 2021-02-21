@@ -13,4 +13,4 @@
 /* Description.ext Specific */
 #define WF_MAXPLAYERS 55
 #define WF_MISSIONNAME "Warfare For Tanoa"
-#define WF_RESPAWNDELAY 10
+#define WF_RESPAWNDELAY 2
