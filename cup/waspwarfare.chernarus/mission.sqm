@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10402.182,161.91957,2046.7806};
-		dir[]={-0.15437552,-0.69153523,0.70566022};
-		up[]={-0.14779091,0.72233999,0.67556202};
-		aside[]={0.97690183,-3.6092388e-008,0.21371444};
+		pos[]={13318.451,124.21247,12688.859};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -4258,13 +4258,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13319.16,112.55986,12702.172};
-				angles[]={0.0877726,4.1887903,6.2179446};
+				position[]={13306.468,113.2918,12711.144};
+				angles[]={0.047963165,3.4585676,6.2605233};
 			};
-			init="call{this setVariable ['wf_defense_kind', ['MG']];}";
+			init="call{this setVariable ['wf_defense_kind', ['MG', 'Olsha']];}";
 			id=710;
 			type="Logic";
-			atlOffset=-0.013000488;
 		};
 		class Item133
 		{
