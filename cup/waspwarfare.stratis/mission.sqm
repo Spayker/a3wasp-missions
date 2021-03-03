@@ -236,7 +236,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Warfare In Stratis V60 RC2";
+		briefingName="Warfare In Stratis V60 RC3";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0.30000001;
