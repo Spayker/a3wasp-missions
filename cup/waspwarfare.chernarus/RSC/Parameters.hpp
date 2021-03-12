@@ -208,12 +208,6 @@ class Params {
 		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled"};
 		default = 0;
 	};	
-	class WF_C_PARAMETER_COLORATION {
-		title = "$STR_WF_PARAMETER_Coloration";
-		values[] = {1, 2};
-		texts[] = {"Classic","WASP"};
-		default = 1;
-	};
 	class WF_C_GAMEPLAY_MISSILES_RANGE {
 		title = "$STR_WF_PARAMETER_MissileRange";
 		values[] = {0,250,500,1000,1500,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500,9000,9500,10000};
