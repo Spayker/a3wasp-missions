@@ -11,6 +11,6 @@
 #define WF_TERR_TYPE 0 //--0 - green, 1 - sand, 2 - winter--
 
 /* Description.ext Specific */
-#define WF_MAXPLAYERS 55
+#define WF_MAXPLAYERS 52
 #define WF_MISSIONNAME "Warfare For Utes"
 #define WF_RESPAWNDELAY 2
