@@ -109,6 +109,12 @@ class Params {
 		texts[] = {"$ 800","$ 1600","$ 2400","$ 3200","$ 4000","$ 4800","$ 6400","$ 8000","$ 12800","$ 25600","$ 51200","$ 102400","$ 204800","$ 409600","$ 819200"};
 		default = 12800;
 	};
+        class WF_C_ECONOMY_FUNDS_START_GUER {
+        title = "$STR_WF_PARAMETER_Funds_Guer";
+        values[] = {800,1600,2400,3200,4000,4800,6400,8000,12800,25600,51200,102400,204800,409600,819200};
+        texts[] = {"$ 800","$ 1600","$ 2400","$ 3200","$ 4000","$ 4800","$ 6400","$ 8000","$ 12800","$ 25600","$ 51200","$ 102400","$ 204800","$ 409600","$ 819200"};
+        default = 25600;
+        };
 	class WF_C_ECONOMY_SUPPLY_START_EAST {
 		title = "$STR_WF_PARAMETER_Supply_East";
 		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,19200,38400,76800};
@@ -121,6 +127,12 @@ class Params {
 		texts[] = {"S 1200","S 2400","S 3600","S 4800","S 6000","S 7200","S 8400","S 9600","S 19200","S 38400","S 76800"};
 		default = 4800;
 	};
+	class WF_C_ECONOMY_SUPPLY_START_GUER {
+        title = "$STR_WF_PARAMETER_Supply_Guer";
+        values[] = {1200,2400,3600,4800,6000,7200,8400,9600,19200,38400,76800};
+        texts[] = {"S 1200","S 2400","S 3600","S 4800","S 6000","S 7200","S 8400","S 9600","S 19200","S 38400","S 76800"};
+        default = 9600;
+    };
 
 	class WF_C_MAX_ECONOMY_SUPPLY_LIMIT {
 		title = "$STR_WF_PARAMETER_Max_Supply_Limit";
