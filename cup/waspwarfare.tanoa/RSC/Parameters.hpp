@@ -294,8 +294,8 @@ class Params {
 	};
 	class WF_C_RESPAWN_CAMPS_RULE_MODE {
 		title = "$STR_WF_PARAMETER_CampRespawnRule";
-		values[] = {0,1,2};
-		texts[] = {"$STR_WF_Disabled","$STR_WF_PARAMETER_Respawn_CampsRule_WestEast","$STR_WF_PARAMETER_Respawn_CampsRule_WestEastRes"};
+		values[] = {0,1};
+		texts[] = {"$STR_WF_Disabled","$STR_WF_PARAMETER_Respawn_CampsRule_WestEastRes"};
 		default = 1;
 	};
 	class WF_C_RESPAWN_DELAY {
