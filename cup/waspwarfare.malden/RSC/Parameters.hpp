@@ -396,10 +396,4 @@ class Params {
 		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled"};
 		default = 0;
 	};
-	class WF_C_TOWNS_STARTING_MODE {
-		title = "$STR_WF_PARAMETER_StartingMode";
-		values[] = {0,1,2,3};
-		texts[] = {"$STR_WF_PARAMETER_None","$STR_WF_PARAMETER_Divided_Towns","$STR_WF_PARAMETER_Nearby_Town","$STR_WF_PARAMETER_StartingLocations_Random"};
-		default = 0;
-	};
 };
