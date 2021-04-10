@@ -271,7 +271,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In NAPF V60 RC4";
+		briefingName="Warfare In NAPF V60 RC45";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0.34828058;

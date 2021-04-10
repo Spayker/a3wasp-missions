@@ -282,7 +282,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Zargabad V60 RC4";
+		briefingName="Warfare In Zargabad V60 RC5";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
