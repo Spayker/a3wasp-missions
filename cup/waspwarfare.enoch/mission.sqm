@@ -260,7 +260,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Warfare In Livonia V60 RC6";
+		briefingName="Warfare In Livonia V60 RC7";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;

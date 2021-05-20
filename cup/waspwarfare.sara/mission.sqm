@@ -271,7 +271,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Sahrani V60 RC6";
+		briefingName="Warfare In Sahrani V60 RC7";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0.35109019;
