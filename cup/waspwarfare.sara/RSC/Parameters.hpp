@@ -13,12 +13,6 @@ class Params {
 		texts[] = {"$STR_WF_Disabled","$STR_WF_PARAMETER_Long","$STR_WF_PARAMETER_Medium","$STR_WF_PARAMETER_Short"};
 		default = 2;
 	};
-	class WF_C_AI_COMMANDER_ENABLED {
-		title = "$STR_WF_PARAMETER_AICommander";
-		values[] = {0,1};
-		texts[] = {"$STR_WF_PARAMETER_No","$STR_WF_PARAMETER_Yes"};
-		default = 0;
-	};
 	class WF_C_BASE_AREA {
 		title = "$STR_WF_PARAMETER_BaseArea";
 		values[] = {0,1,2,3,4,5,6,7,8,9,10,12,14,16,18,20,22,24};
@@ -256,18 +250,6 @@ class Params {
 		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled"};
 		default = 1;
 	};
-	class WF_C_UNITS_BALANCING {
-		title = "$STR_WF_PARAMETER_Balance";
-		values[] = {0,1};
-		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled"};
-		default = 1;
-	};
-	class WF_C_GAMEPLAY_VICTORY_CONDITION {
-		title = "$STR_WF_PARAMETER_VictoryCondition";
-		values[] = {0,1,2,3};
-		texts[] = {"$STR_WF_PARAMETER_Victory_Annihilation","$STR_WF_PARAMETER_Victory_Assassination","$STR_WF_PARAMETER_Victory_Supremacy","$STR_WF_PARAMETER_Victory_Towns"};
-		default = 2;
-	};
 	class WF_C_ENVIRONMENT_MAX_VIEW {
 		title = "$STR_WF_PARAMETER_ViewDistance";
 		values[] = {200,500,800,1000,1500,2000,2500,3000,3500,4000,4500,5000};
@@ -323,30 +305,12 @@ class Params {
 		texts[] = {"50m","100m","150m","200m","250m","300m","350m","400m","450m","500m","550m","600m","650m","700m","750m","800m","850m","900m","950m","1000m","1500m","2000m","2500m","3000m","3500m","4000m"};
 		default = 400;
 	};
-	class WF_C_TOWNS_AMOUNT {
-		title = "$STR_WF_PARAMETER_TownsAmount";
-		values[] = {0,1,2,3,4,5,6,7};
-		texts[] = {"$STR_WF_PARAMETER_Extra_Small","$STR_WF_PARAMETER_Small","$STR_WF_PARAMETER_Medium","$STR_WF_PARAMETER_Large","$STR_WF_PARAMETER_Full","$STR_WF_PARAMETER_RemovedBigTowns","$STR_WF_PARAMETER_RemovedCentralLine","$STR_WF_PARAMETER_RemovedSmallTowns"};
-		default = 4;
-	};
-	class WF_C_TOWNS_CAPTURE_MODE {
-		title = "$STR_WF_PARAMETER_TownsCaptureMode";
-		values[] = {0,1,2};
-		texts[] = {"$STR_WF_PARAMETER_Classic","$STR_WF_PARAMETER_TownsCaptureMode_Threshold","$STR_WF_PARAMETER_TownsCaptureMode_AllCamps"};
-		default = 2;
-	};
 	class WF_C_TOWNS_DEFENDER {
 		title = "$STR_WF_PARAMETER_Defender";
 		values[] = {0,1,2,3,4};
 		texts[] = {"$STR_WF_Disabled","$STR_WF_PARAMETER_Light","$STR_WF_PARAMETER_Medium","$STR_WF_PARAMETER_Hard","$STR_WF_PARAMETER_Impossible"};
 		default = 2;
 	};
-	class WF_C_TOWNS_DEFENDER_AIM_SKILL {
-    	title = "$STR_WF_PARAMETER_Defender_AIM_SKILL";
-    	values[] = {1,2,3,4,5,6,7,8};
-    	texts[] = {"10%","20%","30%","40%","50%","60%","70%","80%"};
-    	default = 6;
-    };
 	class WF_C_UNITS_FACTION_GUER {
 		title = "$STR_WF_PARAMETER_Reinforcement_Type";
 		values[] = {0};
@@ -376,13 +340,6 @@ class Params {
 		values[] = {0};
 		texts[] = {"United States"};
 		default = 0;
-	};
-	
-	class WF_C_TOWNS_BUILD_PROTECTION_RANGE {
-		title = "$STR_WF_PARAMETER_TownProtectionRange";
-		values[] = {0,50,100,150,200,250,300,350,400,450,500};
-		texts[] = {"0m","50m","100m","150m","200m","250m","300m","350m","400m","450m","500m"};
-		default = 100;
 	};
 	class WF_C_UNITS_TOWN_PURCHASE {
 		title = "$STR_WF_PARAMETER_TownsPurchaseMilita";
