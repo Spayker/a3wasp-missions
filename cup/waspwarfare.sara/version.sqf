@@ -13,5 +13,5 @@
 
 /* Description.ext Specific */
 #define WF_MAXPLAYERS 52
-#define WF_MISSIONNAME "Warfare For Sahrani"
+#define WF_MISSIONNAME "Build army, take towns, crush enemies"
 #define WF_RESPAWNDELAY 2
