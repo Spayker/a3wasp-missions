@@ -275,7 +275,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Sahrani V60 RC8";
+		briefingName="Warfare In Sahrani V60 RC7";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0.35109019;
@@ -11219,9 +11219,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8957.3203,51.912991,14949.584};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1136;
 			type="LocationArea_F";
 		};
@@ -11231,9 +11230,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={12075.479,104.66799,16349.995};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1137;
 			type="LocationArea_F";
 			atlOffset=0.00022125244;
@@ -11244,9 +11242,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={10936.737,278.36151,14378.421};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1138;
 			type="LocationArea_F";
 		};
@@ -11256,9 +11253,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14179.634,39.221397,13323.769};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1139;
 			type="LocationArea_F";
 		};
@@ -11268,9 +11264,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16304.134,52.804802,13891.802};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1140;
 			type="LocationArea_F";
 		};
@@ -11280,9 +11275,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={18174.934,24.982124,14308.984};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1141;
 			type="LocationArea_F";
 		};
@@ -11292,9 +11286,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={12660.298,158.96732,12780.104};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1143;
 			type="LocationArea_F";
 		};
@@ -11304,9 +11297,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13059.067,186.88727,14289.479};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1144;
 			type="LocationArea_F";
 			atlOffset=-7.6293945e-005;
@@ -11317,9 +11309,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13838.604,47.868671,11721.866};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1145;
 			type="LocationArea_F";
 			atlOffset=0.0001449585;
@@ -11330,9 +11321,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16173.403,26.078497,9130.415};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1146;
 			type="LocationArea_F";
 		};
@@ -11342,9 +11332,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14825.958,54.562725,9139.3652};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1147;
 			type="LocationArea_F";
 		};
@@ -11354,9 +11343,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13155.138,34.915703,7453.521};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1148;
 			type="LocationArea_F";
 		};
@@ -11366,9 +11354,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={10883.696,62.183517,10416.996};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1149;
 			type="LocationArea_F";
 		};
@@ -11378,9 +11365,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9217.709,131.19028,10391.604};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1150;
 			type="LocationArea_F";
 		};
@@ -11390,9 +11376,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9359.1035,168.38934,9013.999};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1151;
 			type="LocationArea_F";
 		};
@@ -11402,9 +11387,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9352.625,170.51588,7139.1973};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1152;
 			type="LocationArea_F";
 		};
@@ -11414,9 +11398,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7489.1631,150.15224,7329.9668};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1153;
 			type="LocationArea_F";
 		};
@@ -11426,9 +11409,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6405.8247,51.563911,7668.7061};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1154;
 			type="LocationArea_F";
 		};
@@ -11438,9 +11420,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8527.8594,25.54932,5584.207};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1155;
 			type="LocationArea_F";
 		};
@@ -11450,9 +11431,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={10283.271,64.932777,6048.3936};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1156;
 			type="LocationArea_F";
 			atlOffset=-3.8146973e-005;
@@ -11463,9 +11443,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={12606.466,10.050683,6362.1938};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1157;
 			type="LocationArea_F";
 		};
@@ -11475,9 +11454,8 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11290.148,77.047432,7247.9648};
-				angles[]={6.2417707,0,0.09756913};
+				angles[]={6.2417688,0,0.097563908};
 			};
-			init="this setVariable [""wf_default"", west]; this setVariable [""wf_spawn"", ""north""];";
 			id=1158;
 			type="LocationArea_F";
 		};

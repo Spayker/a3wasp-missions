@@ -286,7 +286,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Zargabad V60 RC8";
+		briefingName="Warfare In Zargabad V60 RC7";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
@@ -5082,7 +5082,6 @@ class Mission
 			{
 				position[]={3308.4333,13.209217,877.9024};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3142;
 			type="LocationArea_F";
 			atlOffset=9.5367432e-007;
@@ -5094,7 +5093,6 @@ class Mission
 			{
 				position[]={3967.718,19.863684,1541.0264};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3143;
 			type="LocationArea_F";
 		};
@@ -5105,7 +5103,6 @@ class Mission
 			{
 				position[]={4976.8628,24.472672,2526.0137};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3144;
 			type="LocationArea_F";
 		};
@@ -5116,7 +5113,6 @@ class Mission
 			{
 				position[]={3553.8457,11.862179,2806.7959};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3145;
 			type="LocationArea_F";
 			atlOffset=9.5367432e-007;
@@ -5128,7 +5124,6 @@ class Mission
 			{
 				position[]={2624.9519,24.492393,3396.0598};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3146;
 			type="LocationArea_F";
 		};
@@ -5139,7 +5134,6 @@ class Mission
 			{
 				position[]={5117.0757,10.56295,3536.2612};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3147;
 			type="LocationArea_F";
 		};
@@ -5150,7 +5144,6 @@ class Mission
 			{
 				position[]={4946.2544,40.443325,5461.666};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3148;
 			type="LocationArea_F";
 		};
@@ -5161,7 +5154,6 @@ class Mission
 			{
 				position[]={3503.8472,43.830853,5471.9824};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3149;
 			type="LocationArea_F";
 		};
@@ -5173,7 +5165,6 @@ class Mission
 				position[]={2278.0117,42.769936,5185.644};
 				angles[]={0.027490277,0,0.012496647};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3150;
 			type="LocationArea_F";
 		};
@@ -5184,7 +5175,6 @@ class Mission
 			{
 				position[]={2154.8433,65.936981,2280.1753};
 			};
-			init="call{this setVariable [""wf_default"", east]; this setVariable [""wf_spawn"", ""south""];}";
 			id=3151;
 			type="LocationArea_F";
 		};

@@ -21,9 +21,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={7030.5864,406.02054,4716.8677};
-		dir[]={0.093682073,-0.44194937,0.89213884};
-		up[]={0.046154894,0.89703834,0.43953493};
-		aside[]={0.99453485,1.6880222e-009,-0.10443454};
+		dir[]={0.093681805,-0.44194773,0.89213562};
+		up[]={0.046154488,0.89704078,0.43953106};
+		aside[]={0.99453181,0,-0.10443427};
 	};
 };
 binarizationWanted=0;
@@ -284,7 +284,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Warfare In Takistan V60 RC8";
+		briefingName="Warfare In Takistan V60 RC7";
 		overviewText="Capture all towns, seek and destroy enemy bases + HQ!";
 		resistanceWest=0;
 		startWeather=0;
